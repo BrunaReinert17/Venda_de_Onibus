@@ -91,7 +91,6 @@ CREATE TABLE IF NOT EXISTS `Veiculos_has_Vendas` (
     `Funcionarios_id_CodigoVenda`)
 );
 
--- Inserts Tabelas --
 Tabela Cliente Empresa
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (12, 'Packston', 9, 3, 'pcrosdill0@aboutads.info', 62);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Clevie', 8, 4, 'czamora1@pagesperso-orange.fr', 48);
@@ -119,3 +118,28 @@ insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Emai
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Matthus', 7, 1, 'malentyevn@360.cn', 7);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Bondie', 2, 8, 'bfrimano@opensource.org', 68);
 
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Dodge', 'Ram 1500', 2006, 49, 'Violet', 'Street', 'PCM, Inc.', 59, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Toyota', 'Camry', 1996, 38, 'Teal', 'Road', 'FirstEnergy Corporation', 70, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Volkswagen', 'riolet', 1992, 47, 'Khaki', 'Drive', 'Kelly Services, Inc.', 32, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Jaguar', 'XK Series', 1997, 10, 'Yellow', 'Crossing', 'Retrophin, Inc.', 73, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Kia', 'Sedona', 2011, 34, 'Violet', 'Plaza', 'ShoreTel, Inc.', 84, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Lotus', 'Elise', 2004, 30, 'Goldenrod', 'Park', 'Adams Natural Resources Fund, Inc.', 63, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Suzuki', 'Aerio', 2002, 34, 'Blue', 'Court', 'First Trust Senior Loan Fund ETF', 66, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Mitsubishi', 'Eclipse', 2007, 29, 'Maroon', 'Junction', 'Clean Diesel Technologies, Inc.', 29, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Mazda', 'Miata MX-5', 2007, 38, 'Mauv', 'Point', 'Union Pacific Corporation', 54, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Lexus', 'LS', 1991, 31, 'Orange', 'Place', 'Costco Wholesale Corporation', 41, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Ford', 'Bronco', 1985, 39, 'Khaki', 'Drive', 'PennantPark Investment Corporation', 69, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Plymouth', 'Grand Voyager', 1992, 50, 'Maroon', 'Terrace', 'EV Energy Partners, L.P.', 72, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Kia', 'Sportage', 2000, 13, 'Mauv', 'Hill', 'Apollo Senior Floating Rate Fund Inc.', 36, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Maserati', 'GranTurismo', 2009, 9, 'Orange', 'Hill', 'John Hancock Preferred Income Fund', 88, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Nissan', 'Pathfinder', 2008, 41, 'Orange', 'Court', 'MagnaChip Semiconductor Corporation', 16, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Ford', 'Falcon', 1966, 36, 'Goldenrod', 'Pass', 'RH', 66, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('BMW', '645', 2005, 20, 'Blue', 'Avenue', 'Global X FinTech ETF', 85, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Kia', 'Sorento', 2007, 17, 'Orange', 'Terrace', 'First Trust Total US Market AlphaDEX ETF', 75, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Land Rover', 'Discovery', 2004, 35, 'Purple', 'Place', 'Columbia Sportswear Company', 58, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Hyundai', 'Tucson', 2007, 29, 'Crimson', 'Parkway', 'Gabelli Equity Trust, Inc. (The)', 33, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Pontiac', 'LeMans', 1992, 4, 'Blue', 'Center', 'Weingarten Realty Investors', 71, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Buick', 'Rainier', 2006, 13, 'Teal', 'Avenue', 'Achaogen, Inc.', 36, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('GMC', 'Yukon XL 2500', 2003, 48, 'Puce', 'Park', 'Brookfield Global Listed Infrastructure Income Fund', 49, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Honda', 'del Sol', 1997, 9, 'Purple', 'Court', 'Halozyme Therapeutics, Inc.', 16, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Jeep', 'Wrangler', 1993, 52, 'Pink', 'Junction', 'Packaging Corporation of America', 86, 2);
