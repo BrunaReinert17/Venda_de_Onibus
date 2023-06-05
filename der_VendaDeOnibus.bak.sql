@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS `Fabricantes` (
   PRIMARY KEY (`idFabricante`)
 );
 
-
 CREATE TABLE IF NOT EXISTS `Veiculos` (
   `id_modelo` INT NOT NULL,
   `Marca` VARCHAR(45) NOT NULL,
@@ -91,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `Veiculos_has_Vendas` (
     `Funcionarios_id_CodigoVenda`)
 );
 
-Tabela Cliente Empresa
+-- Tabela Cliente Empresa -- 
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (12, 'Packston', 9, 3, 'pcrosdill0@aboutads.info', 62);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Clevie', 8, 4, 'czamora1@pagesperso-orange.fr', 48);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Brendin', 8, 1, 'bwychard2@constantcontact.com', 70);
@@ -118,6 +117,7 @@ insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Emai
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Matthus', 7, 1, 'malentyevn@360.cn', 7);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Bondie', 2, 8, 'bfrimano@opensource.org', 68);
 
+-- Tabela Veiculos -- 
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Dodge', 'Ram 1500', 2006, 49, 'Violet', 'Street', 'PCM, Inc.', 59, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Toyota', 'Camry', 1996, 38, 'Teal', 'Road', 'FirstEnergy Corporation', 70, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Volkswagen', 'riolet', 1992, 47, 'Khaki', 'Drive', 'Kelly Services, Inc.', 32, 2);
@@ -144,6 +144,7 @@ insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabric
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Honda', 'del Sol', 1997, 9, 'Purple', 'Court', 'Halozyme Therapeutics, Inc.', 16, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Jeep', 'Wrangler', 1993, 52, 'Pink', 'Junction', 'Packaging Corporation of America', 86, 2);
 
+-- Tabela Fabricantes --
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Renner-Sipes', 'Klocko-Koch', 'Youdunjie', '170-447-9881');
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Emard, Casper and Abernathy', 'Harber-Labadie', 'Singaparna', '780-982-4586');
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Rempel and Sons', 'Tromp, Becker and Considine', '''s-Hertogenbosch', '829-721-1507');
@@ -170,7 +171,7 @@ insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp, Stroman and Kunde', 'Wolf, Dibbert and Ondricka', 'Huskvarna', '294-716-9241');
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Collins Inc', 'Kutch, Keeling and Stanton', 'Refojos de Riba de Ave', '933-838-8505');
 
-<<<<<<< HEAD
+-- Tabela Enderecos --
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (8.09635296, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (93.96922989, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (18.83448994, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
@@ -196,7 +197,7 @@ insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54.4
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.77739977, 23, 'Thung Yang Daeng', 'Goiatuba', 'Sol’tsy', 'Shangde');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.84726951, 24, 'Ongabelen', 'Huanggong', 'Krajan', 'Santana');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (60.83474012, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
-=======
+
 -- Tabela Funcionario --
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (11, 'Merlina', 15, 'Strosin-Leffler');
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (8, 'Rosemary', 22, 'King Group');
@@ -223,5 +224,5 @@ insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoA
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (12, 'Renae', 4, 'Gibson-Herzog');
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (10, 'Alair', 8, 'Gerhold-Veum');
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (10, 'Gonzales', 92, 'Leuschke, Hamill and Sauer');
->>>>>>> main
+
 
