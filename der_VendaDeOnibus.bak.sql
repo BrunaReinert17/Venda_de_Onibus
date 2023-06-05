@@ -170,4 +170,29 @@ insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp, Stroman and Kunde', 'Wolf, Dibbert and Ondricka', 'Huskvarna', '294-716-9241');
 insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Collins Inc', 'Kutch, Keeling and Stanton', 'Refojos de Riba de Ave', '933-838-8505');
 
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (8.09635296, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (93.96922989, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (18.83448994, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (36.02280307, 4, 'Klirou', 'Hamhŭng', 'Gangu Chengguanzhen', 'Kathu');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (29.74477681, 5, 'Yaogou', 'Angra dos Reis', 'Prínos', 'Laxiong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (31.88375906, 6, 'Skatepark', 'Jablonec nad Jizerou', 'Mibu', 'Lenger');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (64.02457725, 7, 'Naschel', 'Aoshi', 'Dahu', 'Catamayo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (92.33638383, 8, 'Lišov', 'Mashi', 'Mapou', 'Vårgårda');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (49.70551522, 9, 'Grenoble', 'Sacramento', 'Baiima', 'Maradi');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (86.16987814, 10, 'Qinhe', 'Futian', 'Novi Kneževac', 'Zhongpai');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (87.35168452, 11, 'Sanxing', 'Dajanrurung', 'Sibulan', 'San Antonio de los Baños');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98.56426513, 12, 'Gechuan', 'Gongpo', 'Staroderevyankovskaya', 'Curvelo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (45.29208355, 13, 'Trzin', 'Zbrosławice', 'Makadi Bay', 'Krajan Battal');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.38882444, 14, 'Gamut', 'Niamtougou', 'Grande Cache', 'Motuo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (68.65026023, 15, 'Cigadog', 'Saboyá', 'Anrong', 'Algoz');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.00186145, 16, 'Solna', 'Zhoutian', 'Mishkino', 'Guacarí');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (47.21305087, 17, 'Nova Olímpia', 'Hongmei', 'Volgodonsk', 'Villa Concepción del Tío');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (32.19858381, 18, 'Donglu', 'Không', 'Batouri', 'Lidingö');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (56.40057465, 19, 'Krajan Satu', 'Munde', 'Luleå', 'Ar Ramāḑīn');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (78.56220169, 20, 'Manna', 'Banisilan', 'Juncalito Abajo', 'Confey');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (41.0592041, 21, 'Oropesa', 'Doujia', 'Havre-Saint-Pierre', 'Korba');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54.40037294, 22, 'Belfort', 'Tarascon', 'Staten Island', 'Safotulafai');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.77739977, 23, 'Thung Yang Daeng', 'Goiatuba', 'Sol’tsy', 'Shangde');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.84726951, 24, 'Ongabelen', 'Huanggong', 'Krajan', 'Santana');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (60.83474012, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
 
