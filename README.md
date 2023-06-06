@@ -5,4 +5,4 @@ Somos uma empresa de gerenciamnento responsável pela venda de transportes colet
 
 Discentes reponsáveis: Maria Tereza Wippel, BrunaReinert, Águida Ariane e Agatha Cristine Onofre Ribeiro.
 
-![Diagrama](https://github.com/BrunaReinert17/Venda_de_Onibus/blob/main/img_der_VendaDeonibus.png "Diagrama")
+![Diagrama](![Diagrama de Entidade-relacionamento](https://github.com/BrunaReinert17/Venda_de_Onibus/assets/111304031/3ea45567-1f12-4feb-b774-2962072183b2)")
