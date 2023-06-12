@@ -230,30 +230,31 @@ insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoA
 
 -- Tabela Vendas --
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 1, 'Cartão', 8, 1);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 2, 'Cartão', 77, 2);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 2, 'Pix', 77, 2);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 3, 'Cartão', 51, 3);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 4, 'Cartão', 36, 4);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 5, 'Cartão', 39, 5);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 6, 'Cartão', 20, 6);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 4, 'Pix', 36, 4);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 5, 'Financiamento', 39, 5);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 6, 'Financiamento', 20, 6);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 7, 'Cartão', 81, 7);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 8, 'Cartão', 66, 8);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 9, 'Cartão', 61, 9);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 10, 'Cartão', 2, 10);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 11, 'Cartão', 38, 11);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 9, 'Pix', 61, 9);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 10, 'Pix', 2, 10);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 11, 'Financiamento', 38, 11);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 12, 'Cartão', 11, 12);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 13, 'Cartão', 48, 13);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 13, 'Pix', 48, 13);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 14, 'Cartão', 48, 14);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 15, 'Cartão', 52, 15);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 16, 'Cartão', 52, 16);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 17, 'Cartão', 49, 17);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 18, 'Cartão', 50, 18);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 19, 'Cartão', 84, 19);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 16, 'Financiamento', 52, 16);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 17, 'Pix', 49, 17);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 18, 'Pix', 50, 18);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 19, 'Financiamento', 84, 19);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 20, 'Cartão', 59, 20);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 21, 'Cartão', 31, 21);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 22, 'Cartão', 26, 22);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 21, 'Pix', 31, 21);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 22, 'Financiamento', 26, 22);
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 23, 'Cartão', 84, 23);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 24, 'Cartão', 49, 24);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 25, 'Cartão', 52, 25);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 24, 'Financiamento', 49, 24);
+insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 25, 'Pix', 52, 25);
+
 
 -- Tabela Veiculos das Vendas --
 insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Samurai', 3, 1);
@@ -320,6 +321,19 @@ UPDATE Enderecos SET Cidade = 'Gaspar' WHERE id_Cep = 98.56426513;
 UPDATE Enderecos SET Bairro = 'Colinha' WHERE id_Cep = 24.00186145;
 UPDATE Enderecos SET Rua = 'maumau' WHERE id_Cep = 32.19858381;
 UPDATE Enderecos SET Estado = 'Parana' WHERE id_Cep = 60.83474012;
+
+-- Update Vendas --
+UPDATE Vendas SET Clientes_id_Cpf = 234567890121 WHERE idVendas  = 1;
+UPDATE Vendas SET Funcionarios_id_CodigoVenda = 123   WHERE idVendas = 2;
+UPDATE Vendas SET tipoPagamento =  ‘Financiamento’ WHERE idVendas = 3;
+UPDATE Vendas SET ReservaVeiculo = 123 WHERE idVendas = 4;
+UPDATE Vendas SET tipoPagamento = 'Cartão' WHERE idVendas  = 5;
+UPDATE Vendas SET Clientes_id_Cpf = 365788954297,ReservaVeiculo = 333 WHERE idVendas = 6;
+UPDATE Vendas SET Clientes_id_Cpf = 047531648924,tipoPagamento = ‘Cartão’ WHERE idVendas = 7;
+UPDATE Vendas SET tipoPagamento = 'Financiamento' WHERE idVendas = 8;
+UPDATE Vendas SET Funcionarios_id_CodigoVenda = 6359 WHERE idVendas = 9;
+UPDATE Vendas SET  ReservaVeiculo = 125 WHERE idVendas = 10;
+
 
 
 
