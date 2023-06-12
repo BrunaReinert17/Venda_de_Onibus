@@ -316,10 +316,10 @@ UPDATE Enderecos SET Bairro = 'Lagoa' WHERE id_Cep = 29.74477681;
 UPDATE Enderecos SET Rua = 'Geral Poço Grande' WHERE id_Cep = 64.02457725;
 UPDATE Enderecos SET Estado = 'Santa Catarina' WHERE id_Cep = 87.35168452;
 UPDATE Enderecos SET Numero = 456  WHERE id_Cep = 41.0592041;
-UPDATE Enderecos SET Cidade = 'Outra Cidade' WHERE id_Cep = 98.56426513;
-UPDATE Enderecos SET Bairro = 'Outro Bairro' WHERE id_Cep = 24.00186145;
-UPDATE Enderecos SET Rua = 'Outra Rua' WHERE id_Cep = 32.19858381;
-UPDATE Enderecos SET Estado = 'Outro Estado' WHERE id_Cep = 60.83474012;
+UPDATE Enderecos SET Cidade = 'Gaspar' WHERE id_Cep = 98.56426513;
+UPDATE Enderecos SET Bairro = 'Colinha' WHERE id_Cep = 24.00186145;
+UPDATE Enderecos SET Rua = 'maumau' WHERE id_Cep = 32.19858381;
+UPDATE Enderecos SET Estado = 'Parana' WHERE id_Cep = 60.83474012;
 
 
 
