@@ -89,33 +89,32 @@ CREATE TABLE IF NOT EXISTS `Veiculos_das_Vendas` (
     `Clientes_id_Cpf`,
     `Funcionarios_id_CodigoVenda`)
 );
-
--- Tabela Cliente Empresa -- 
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (12, 'Packston', 9, 3, 'pcrosdill0@aboutads.info', 62);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Clevie', 8, 4, 'czamora1@pagesperso-orange.fr', 48);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Brendin', 8, 1, 'bwychard2@constantcontact.com', 70);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Alla', 9, 2, 'anisen3@prlog.org', 80);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Wolfgang', 9, 8, 'wshakle4@marketwatch.com', 6);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Mort', 7, 3, 'mkale5@java.com', 66);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Blanca', 8, 2, 'bdoddridge6@wikimedia.org', 40);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (4, 'Orelee', 3, 3, 'ogehring7@nsw.gov.au', 19);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Joan', 4, 4, 'jodriscoll8@feedburner.com', 57);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Kamila', 4, 5, 'klavallie9@ucla.edu', 95);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (5, 'Ted', 8, 7, 'tcondona@chron.com', 79);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (5, 'Myrlene', 5, 4, 'mhendricksb@ucoz.com', 86);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Antonina', 5, 8, 'aundrillc@admin.ch', 40);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (3, 'Alleen', 9, 7, 'afoggod@npr.org', 97);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (7, 'Julia', 1, 3, 'jcordse@alexa.com', 97);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Tammie', 5, 7, 'tlackief@cbc.ca', 54);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (6, 'Mohandis', 1, 1, 'mwicherg@cargocollective.com', 88);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Letisha', 9, 3, 'lhebardh@51.la', 31);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (8, 'Yorgo', 2, 1, 'ygoodsoni@nationalgeographic.com', 78);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (8, 'August', 9, 5, 'arablj@google.pl', 40);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (7, 'Billy', 9, 8, 'bwaggettk@mashable.com', 32);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Renard', 2, 7, 'rkalewel@ox.ac.uk', 58);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Calla', 8, 2, 'cshrigleym@i2i.jp', 18);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Matthus', 7, 1, 'malentyevn@360.cn', 7);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Bondie', 2, 8, 'bfrimano@opensource.org', 68);
+-- Tabela Fabricantes --
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Renner-Sipes', 'Klocko-Koch', 'Youdunjie', '170-447-9881');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Emard, Casper and Abernathy', 'Harber-Labadie', 'Singaparna', '780-982-4586');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Rempel and Sons', 'Tromp, Becker and Considine', '''s-Hertogenbosch', '829-721-1507');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Buckridge, Block and Predovic', 'Lueilwitz-Leannon', 'Tōbetsu', '113-503-3859');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Weimann, Crist and Kirlin', 'Batz Inc', 'Lwówek Śląski', '709-757-5821');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Grady Group', 'Walker LLC', 'Barrio San Luis', '311-202-3560');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('MacGyver-Schulist', 'Wolf, Schulist and Nader', 'Haokou', '955-598-2629');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Johnson-Luettgen', 'Koch, Hansen and Kozey', 'Calubcub Dos', '394-358-3644');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Herman Inc', 'Shanahan-Davis', 'Ikedachō', '537-554-6269');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Walker Group', 'Runte-Sipes', 'Chongkan', '275-664-4861');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Turcotte-Bergstrom', 'Shields-Blick', 'Longtian', '301-964-6653');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Erdman, Spinka and Hyatt', 'Hintz-Langosh', 'Mariquita', '711-867-1943');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Morar and Sons', 'DuBuque, Wehner and Mitchell', 'Mueang Nonthaburi', '552-546-2031');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Ebert, Gottlieb and Schmidt', 'Moen-Dibbert', 'Nianyushan', '632-644-0035');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Brakus Group', 'O''Connell, McKenzie and Zulauf', 'Łącko', '875-842-4758');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Watsica-Aufderhar', 'Beahan, Veum and Bashirian', 'Hengli', '619-106-1216');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Heller, Krajcik and Cremin', 'Hudson Group', 'Kilkís', '193-850-1688');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Hills Inc', 'Bednar Inc', 'T’azagyugh', '240-603-1121');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Waters and Sons', 'Kovacek Group', 'Tianchang', '470-475-7514');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp-Legros', 'Deckow LLC', 'Smach Mean Chey', '450-930-5610');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Skiles LLC', 'Johnson Inc', 'Cikeusal', '518-997-6495');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Fritsch-Bernier', 'Ortiz, Adams and Beier', 'Aţ Ţaybah', '523-630-6847');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Reichel-Mueller', 'Schulist Inc', 'Catende', '398-598-8482');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp, Stroman and Kunde', 'Wolf, Dibbert and Ondricka', 'Huskvarna', '294-716-9241');
+insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Collins Inc', 'Kutch, Keeling and Stanton', 'Refojos de Riba de Ave', '933-838-8505');
 
 -- Tabela Veiculos -- 
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Dodge', 'Ram 1500', 2006, 49, 'Violet', 'Street', 'PCM, Inc.', 59, 2);
@@ -144,33 +143,6 @@ insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabric
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Honda', 'del Sol', 1997, 9, 'Purple', 'Court', 'Halozyme Therapeutics, Inc.', 16, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, TipodeFrota, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Jeep', 'Wrangler', 1993, 52, 'Pink', 'Junction', 'Packaging Corporation of America', 86, 2);
 
--- Tabela Fabricantes --
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Renner-Sipes', 'Klocko-Koch', 'Youdunjie', '170-447-9881');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Emard, Casper and Abernathy', 'Harber-Labadie', 'Singaparna', '780-982-4586');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Rempel and Sons', 'Tromp, Becker and Considine', '''s-Hertogenbosch', '829-721-1507');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Buckridge, Block and Predovic', 'Lueilwitz-Leannon', 'Tōbetsu', '113-503-3859');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Weimann, Crist and Kirlin', 'Batz Inc', 'Lwówek Śląski', '709-757-5821');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Grady Group', 'Walker LLC', 'Barrio San Luis', '311-202-3560');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('MacGyver-Schulist', 'Wolf, Schulist and Nader', 'Haokou', '955-598-2629');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Johnson-Luettgen', 'Koch, Hansen and Kozey', 'Calubcub Dos', '394-358-3644');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Herman Inc', 'Shanahan-Davis', 'Ikedachō', '537-554-6269');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Walker Group', 'Runte-Sipes', 'Chongkan', '275-664-4861');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Turcotte-Bergstrom', 'Shields-Blick', 'Longtian', '301-964-6653');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Erdman, Spinka and Hyatt', 'Hintz-Langosh', 'Mariquita', '711-867-1943');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Morar and Sons', 'DuBuque, Wehner and Mitchell', 'Mueang Nonthaburi', '552-546-2031');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Ebert, Gottlieb and Schmidt', 'Moen-Dibbert', 'Nianyushan', '632-644-0035');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Brakus Group', 'O''Connell, McKenzie and Zulauf', 'Łącko', '875-842-4758');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Watsica-Aufderhar', 'Beahan, Veum and Bashirian', 'Hengli', '619-106-1216');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Heller, Krajcik and Cremin', 'Hudson Group', 'Kilkís', '193-850-1688');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Hills Inc', 'Bednar Inc', 'T’azagyugh', '240-603-1121');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Waters and Sons', 'Kovacek Group', 'Tianchang', '470-475-7514');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp-Legros', 'Deckow LLC', 'Smach Mean Chey', '450-930-5610');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Skiles LLC', 'Johnson Inc', 'Cikeusal', '518-997-6495');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Fritsch-Bernier', 'Ortiz, Adams and Beier', 'Aţ Ţaybah', '523-630-6847');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Reichel-Mueller', 'Schulist Inc', 'Catende', '398-598-8482');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Torp, Stroman and Kunde', 'Wolf, Dibbert and Ondricka', 'Huskvarna', '294-716-9241');
-insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('Collins Inc', 'Kutch, Keeling and Stanton', 'Refojos de Riba de Ave', '933-838-8505');
-
 -- Tabela Enderecos --
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (8.09635296, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (93.96922989, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
@@ -197,6 +169,37 @@ insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54.4
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.77739977, 23, 'Thung Yang Daeng', 'Goiatuba', 'Sol’tsy', 'Shangde');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.84726951, 24, 'Ongabelen', 'Huanggong', 'Krajan', 'Santana');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (60.83474012, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
+
+-- Tabela Cliente Empresa -- 
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (12, 'Packston', 9, 3, 'pcrosdill0@aboutads.info', 62);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Clevie', 8, 4, 'czamora1@pagesperso-orange.fr', 48);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Brendin', 8, 1, 'bwychard2@constantcontact.com', 70);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Alla', 9, 2, 'anisen3@prlog.org', 80);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Wolfgang', 9, 8, 'wshakle4@marketwatch.com', 6);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Mort', 7, 3, 'mkale5@java.com', 66);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Blanca', 8, 2, 'bdoddridge6@wikimedia.org', 40);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (4, 'Orelee', 3, 3, 'ogehring7@nsw.gov.au', 19);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (9, 'Joan', 4, 4, 'jodriscoll8@feedburner.com', 57);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Kamila', 4, 5, 'klavallie9@ucla.edu', 95);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (5, 'Ted', 8, 7, 'tcondona@chron.com', 79);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (5, 'Myrlene', 5, 4, 'mhendricksb@ucoz.com', 86);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Antonina', 5, 8, 'aundrillc@admin.ch', 40);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (3, 'Alleen', 9, 7, 'afoggod@npr.org', 97);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (7, 'Julia', 1, 3, 'jcordse@alexa.com', 97);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Tammie', 5, 7, 'tlackief@cbc.ca', 54);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (6, 'Mohandis', 1, 1, 'mwicherg@cargocollective.com', 88);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (10, 'Letisha', 9, 3, 'lhebardh@51.la', 31);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (8, 'Yorgo', 2, 1, 'ygoodsoni@nationalgeographic.com', 78);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (8, 'August', 9, 5, 'arablj@google.pl', 40);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (7, 'Billy', 9, 8, 'bwaggettk@mashable.com', 32);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Renard', 2, 7, 'rkalewel@ox.ac.uk', 58);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (13, 'Calla', 8, 2, 'cshrigleym@i2i.jp', 18);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (2, 'Matthus', 7, 1, 'malentyevn@360.cn', 7);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Endereco_id_Cep, Email, TelefoneCelular) values (11, 'Bondie', 2, 8, 'bfrimano@opensource.org', 68);
+
+
+
+
 
 -- Tabela Funcionario --
 insert into Funcionarios (id_codigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (11, 'Merlina', 15, 'Strosin-Leffler');
@@ -278,3 +281,19 @@ insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Ven
 insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Silverado 1500', 2, 23);
 insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('X5 M', 3, 24);
 insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C-Class', 3, 25);
+
+-- selects --
+
+
+-- updates--
+UPDATE Fabricantes SET NomeEmpresa = 'Deltabus' WHERE idFabricante = 1;
+UPDATE Fabricantes SET Cidade = 'Blumenau' WHERE idFabricante = 2;
+UPDATE Fabricantes SET Telefone = 1112345678 WHERE idFabricante = 3; -- arrumar telefone
+UPDATE Fabricantes SET NomeEmpresa = 'Nova Empresa 4', Cidade = 'Nova Cidade 4' WHERE idFabricante = 4;
+UPDATE Fabricantes SET Telefone = 2198765432 WHERE idFabricante = 5;
+UPDATE Fabricantes SET Cidade = 'Nova Cidade 6', Telefone = 555555555 WHERE idFabricante = 6;
+UPDATE Fabricantes SET NomeEmpresa = 'Nova Empresa 7', Cidade = 'Nova Cidade 7', Telefone = 111111111 WHERE idFabricante = 7;
+UPDATE Fabricantes SET NomeEmpresa = 'Nova Empresa 8' WHERE idFabricante = 8;
+UPDATE Fabricantes SET Cidade = 'Nova Cidade 9' WHERE idFabricante = 9;
+UPDATE Fabricantes SET Telefone = 4755558888 WHERE idFabricante = 10;
+-- deletes --
