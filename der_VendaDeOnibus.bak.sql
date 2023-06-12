@@ -322,6 +322,18 @@ UPDATE Enderecos SET Bairro = 'Colinha' WHERE id_Cep = 24.00186145;
 UPDATE Enderecos SET Rua = 'maumau' WHERE id_Cep = 32.19858381;
 UPDATE Enderecos SET Estado = 'Parana' WHERE id_Cep = 60.83474012;
 
+-- cliente empresa -- 
+UPDATE ClienteEmpresa SET Nome = 'João Oliveira' WHERE Cnpj = 12 AND Enderecos_id_Cep = 3;
+UPDATE ClienteEmpresa SET telefoneComercial = 4798855919  WHERE Cnpj = 98765432100002 AND Enderecos_id_Cep = 98765432;
+UPDATE ClienteEmpresa SET Email = 'joaooliveira@gmail.com' WHERE Cnpj =    666777888000010   AND Enderecos_id_Cep = 89115816;
+UPDATE ClienteEmpresa SET TelefoneCelular = '4799215230' WHERE Cnpj = 444555666 AND Enderecos_id_Cep = 59786094;
+UPDATE ClienteEmpresa SET Nome = 'Pedro Costa', telefoneComercial = 5596784563, Email = 'pedrocosta@gmail.com' WHERE Cnpj = 14634789674512 AND Enderecos_id_Cep = 34658790;
+UPDATE ClienteEmpresa SET Nome = 'Ana Santos', TelefoneCelular = '5597554378' WHERE Cnpj = 12435768901322 AND Enderecos_id_Cep = 89671265;
+UPDATE ClienteEmpresa SET telefoneComercial = 4798765544, Email = 'anaantos@gmail.com' WHERE Cnpj = 555666777 AND Enderecos_id_Cep = 66666;
+UPDATE ClienteEmpresa SET Nome = 'Lucas Almeida', telefoneComercial = 5599875634, TelefoneCelular = '4740028922' WHERE Cnpj = 888999000 AND Enderecos_id_Cep = 90867543;
+UPDATE ClienteEmpresa SET telefoneComercial = 5540017899 WHERE Cnpj = 333444555 AND Enderecos_id_Cep = 81711422;
+UPDATE ClienteEmpresa SET Email = 'lucasalmeida@gmail.com', TelefoneCelular = '4791142205' WHERE Cnpj = 67890123456698  AND Enderecos_id_Cep = 11781624;
+
 -- Update Vendas --
 UPDATE Vendas SET Clientes_id_Cpf = 234567890121 WHERE idVendas  = 1;
 UPDATE Vendas SET Funcionarios_id_CodigoVenda = 123   WHERE idVendas = 2;
