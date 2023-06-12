@@ -341,6 +341,19 @@ UPDATE Vendas SET tipoPagamento = 'Financiamento' WHERE idVendas = 8;
 UPDATE Vendas SET Funcionarios_id_CodigoVenda = 6359 WHERE idVendas = 9;
 UPDATE Vendas SET  ReservaVeiculo = 125 WHERE idVendas = 10;
 
+-- Update Funcionario -- 
+UPDATE Funcionarios SET  NomeFuncionario = 'Águida'  WHERE id_CodigoVenda = 11;
+UPDATE Funcionarios SET FaixaComissao = 2  WHERE id_CodigoVenda = 11;
+UPDATE Funcionarios SET CargoAtual = 'Gerente' WHERE id_CodigoVenda = 13;
+UPDATE Funcionarios SET NomeFuncionario = 'Maria'  WHERE id_CodigoVenda = 14;
+UPDATE Funcionarios SET FaixaComissao =  3  WHERE id_CodigoVenda = 10;
+UPDATE Funcionarios SET CargoAtual = 'Supervisor' WHERE id_CodigoVenda = 8;
+UPDATE Funcionarios SET NomeFuncionario = 'Bruna' WHERE id_CodigoVenda = 7;
+UPDATE Funcionarios SET FaixaComissao = 1 WHERE id_CodigoVenda = 8;
+UPDATE Funcionarios SET CargoAtual = 'Diretor'  WHERE id_CodigoVenda = 9;
+UPDATE Funcionarios SET NomeFuncionario = 'Daniel' WHERE id_CodigoVenda = 10;
+
+
 
 
 
