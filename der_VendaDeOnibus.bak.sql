@@ -309,3 +309,17 @@ UPDATE Veiculos SET TipoCombustivel = 'Gasolina' WHERE id_modelo = 8 AND Fabrica
 UPDATE Veiculos SET KmVeiculo = '90km' WHERE id_modelo = 9 AND Fabricantes_idFabricante = 9;
 UPDATE Veiculos SET Portaveiculo = '2 portas' WHERE id_modelo = 10 AND Fabricantes_idFabricante = 10;
 
+-- Update Enderços --
+UPDATE Enderecos SET  Numero = 123 WHERE id_Cep = 13.9938494;
+UPDATE Enderecos SET Cidade = 'Blumenau' WHERE id_Cep = 34.083839737;
+UPDATE Enderecos SET Bairro = 'Lagoa' WHERE id_Cep = 56.474384847;
+UPDATE Enderecos SET Rua = 'Geral Poço Grande' WHERE id_Cep = 45.473637463;
+UPDATE Enderecos SET Estado = 'Santa Catarina' WHERE id_Cep = 52.4637362839;
+UPDATE Enderecos SET Numero = 456  WHERE id_Cep = 54.383738383;
+UPDATE Enderecos SET Cidade = 'Outra Cidade' WHERE id_Cep = 43.484948394;
+UPDATE Enderecos SET Bairro = 'Outro Bairro' WHERE id_Cep = 21.3837483947;
+UPDATE Enderecos SET Rua = 'Outra Rua' WHERE id_Cep = 99.5859494848;
+UPDATE Enderecos SET Estado = 'Outro Estado' WHERE id_Cep = 10.789567345;
+
+
+
