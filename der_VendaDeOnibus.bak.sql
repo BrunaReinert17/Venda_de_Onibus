@@ -118,7 +118,7 @@ insert into Fabricantes (id_Fabricante, NomeEmpresa, Cidade, Telefone) values ('
 
 -- Tabela Veiculos -- 
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Dodge', 'Ram 1500', 2006, 49, 'Violet', 'Porta Copos', 'Street', 'Gasolima', 'PCM, Inc.', 59, 2);
-insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Toyota', 'Camry', 1996, 38, 'Teal', ' 'Road', 'Diesel', 'FirstEnergy Corporation', 70, 2);
+insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Toyota', 'Camry', 1996, 38, 'Teal',  'Road', 'Diesel', 'FirstEnergy Corporation', 70, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Volkswagen', 'riolet', 1992, 47, 'Khaki', 'Drive', 'Gás', 'Kelly Services, Inc.', 32, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Jaguar', 'XK Series', 1997, 10, 'Yellow', 'Crossing', 'Retrophin, Inc.', 73, 2);
 insert into Veiculos (id_modelo, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, Fabricantes_ifFabricante, KmVeiculo, PortaVeiculo) values ('Kia', 'Sedona', 2011, 34, 'Violet', 'Plaza', 'ShoreTel, Inc.', 84, 2);
