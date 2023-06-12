@@ -285,7 +285,7 @@ insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Ven
 -- selects --
 
 
--- updates--
+-- updates Fabricantes --
 UPDATE Fabricantes SET NomeEmpresa = 'Deltabus' WHERE idFabricante = 1;
 UPDATE Fabricantes SET Cidade = 'Blumenau' WHERE idFabricante = 2;
 UPDATE Fabricantes SET Telefone = 1112345678 WHERE idFabricante = 3; -- arrumar telefone
@@ -296,4 +296,16 @@ UPDATE Fabricantes SET NomeEmpresa = 'Nova Empresa 7', Cidade = 'Nova Cidade 7',
 UPDATE Fabricantes SET NomeEmpresa = 'Nova Empresa 8' WHERE idFabricante = 8;
 UPDATE Fabricantes SET Cidade = 'Nova Cidade 9' WHERE idFabricante = 9;
 UPDATE Fabricantes SET Telefone = 4755558888 WHERE idFabricante = 10;
--- deletes --
+
+-- update Veiculos --
+UPDATE Veiculos SET id_modelo = 1, Fabricantes_idFabricante = 1 WHERE id_modelo = 1 AND Fabricantes_idFabricante = 1;
+UPDATE Veiculos SET Marca = 'Mercedes' WHERE id_modelo = 2 AND Fabricantes_idFabricante = 2;
+UPDATE Veiculos SET Ano = 2023 WHERE id_modelo = 3 AND Fabricantes_idFabricante = 3;
+UPDATE Veiculos SET Acessorios = 'Porta copos' WHERE id_modelo = 4 AND Fabricantes_idFabricante = 4;
+UPDATE Veiculos SET Lotação = '52 lugares' WHERE id_modelo = 5 AND Fabricantes_idFabricante = 5;
+UPDATE Veiculos SET Cor = 'Cinza' WHERE id_modelo = 6 AND Fabricantes_idFabricante = 6;
+UPDATE Veiculos SET TipodeFrota = 'Serviços Públicos' WHERE id_modelo = 7 AND Fabricantes_idFabricante = 7;
+UPDATE Veiculos SET TipoCombustivel = 'Gasolina' WHERE id_modelo = 8 AND Fabricantes_idFabricante = 8;
+UPDATE Veiculos SET KmVeiculo = '90km' WHERE id_modelo = 9 AND Fabricantes_idFabricante = 9;
+UPDATE Veiculos SET Portaveiculo = '2 portas' WHERE id_modelo = 10 AND Fabricantes_idFabricante = 10;
+
