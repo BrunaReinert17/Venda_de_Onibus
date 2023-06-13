@@ -252,31 +252,32 @@ insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento,
 insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (12, 25, 'Pix', 52, 25);
 
 -- Tabela Veiculos das Vendas --
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Samurai', 3, 1);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('APV', 1, 2);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('TundraMax', 3, 3);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('M-Class', 2, 4);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra 1500', 1, 5);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Escalade EXT', 2, 6);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Axiom', 2, 7);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C70', 1, 8);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Grand Cherokee', 1, 9);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('9-5', 3, 10);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Impala', 1, 11);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Maxima', 1, 12);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra', 3, 13);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Montero Sport', 2, 14);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Accent', 3, 15);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CR-Z', 2, 16);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Cavalier', 1, 17);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CX-7', 1, 18);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Focus', 2, 19);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('SC', 3, 20);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Vision', 1, 21);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Stanza', 2, 22);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Silverado 1500', 2, 23);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('X5 M', 3, 24);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C-Class', 3, 25);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Samurai', 123456789-10, 1);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('APV', 234567890-21, 2);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('TundraMax', 345678.01-32, 3);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('M-Class', 567890123-64, 4);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra 1500', 567890123-64, 5);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Escalade EXT', 456789012-53, 6);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Axiom', 345678901-42, 7);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C70', 789012345-76, 8);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Grand Cherokee',  234567890-31, 9);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('9-5', 123456789-20, 10);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Impala', 012345678-09, 11);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Maxima', 012345678-09, 12);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra', 901234567-98, 13);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Montero Sport', 890123456-87, 14);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Accent', 012345678-91, 15);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CR-Z', 012345678-99, 16);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Cavalier', 901234567-88, 17);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CX-7', 890123456-77, 18);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Focus', 789012345-66, 19);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('SC', 678901234-55, 20);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Vision', 567890123-44, 21);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Stanza', 456789012-33, 22);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Silverado 1500', 345678901-22, 23);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('X5 M', 234567890-11, 24);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C-Class', 123456789-00, 25);
+
 
 -- selects --
 
@@ -329,18 +330,6 @@ UPDATE ClienteEmpresa SET Nome = 'Lucas Almeida', telefoneComercial = 5599875634
 UPDATE ClienteEmpresa SET telefoneComercial = 5540017899 WHERE Cnpj = 333444555 AND Enderecos_id_Cep = 81711422;
 UPDATE ClienteEmpresa SET Email = 'lucasalmeida@gmail.com', TelefoneCelular = '4791142205' WHERE Cnpj = 67890123456698  AND Enderecos_id_Cep = 11781624;
 
--- Update Vendas --
-UPDATE Vendas SET Clientes_id_Cpf = 234567890121 WHERE idVendas  = 1;
-UPDATE Vendas SET Funcionarios_id_CodigoVenda = 123   WHERE idVendas = 2;
-UPDATE Vendas SET tipoPagamento =  ‘Financiamento’ WHERE idVendas = 3;
-UPDATE Vendas SET ReservaVeiculo = 123 WHERE idVendas = 4;
-UPDATE Vendas SET tipoPagamento = 'Cartão' WHERE idVendas  = 5;
-UPDATE Vendas SET Clientes_id_Cpf = 365788954297,ReservaVeiculo = 333 WHERE idVendas = 6;
-UPDATE Vendas SET Clientes_id_Cpf = 047531648924,tipoPagamento = ‘Cartão’ WHERE idVendas = 7;
-UPDATE Vendas SET tipoPagamento = 'Financiamento' WHERE idVendas = 8;
-UPDATE Vendas SET Funcionarios_id_CodigoVenda = 6359 WHERE idVendas = 9;
-UPDATE Vendas SET  ReservaVeiculo = 125 WHERE idVendas = 10;
-
 -- Update Funcionario -- 
 UPDATE Funcionarios SET  NomeFuncionario = 'Águida'  WHERE id_CodigoVenda = 11;
 UPDATE Funcionarios SET FaixaComissao = 2  WHERE id_CodigoVenda = 11;
@@ -353,9 +342,27 @@ UPDATE Funcionarios SET FaixaComissao = 1 WHERE id_CodigoVenda = 8;
 UPDATE Funcionarios SET CargoAtual = 'Diretor'  WHERE id_CodigoVenda = 9;
 UPDATE Funcionarios SET NomeFuncionario = 'Daniel' WHERE id_CodigoVenda = 10;
 
+-- Update Vendas --
+UPDATE Vendas SET tipoPagamento = 'Dinheiro' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 1;
+UPDATE Vendas SET tipoPagamento = 'Transferência' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 2;
+UPDATE Vendas SET Garantia = 60 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 3;
+UPDATE Vendas SET tipoPagamento = 'Boleto' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 4;
+UPDATE Vendas SET ReservaVeiculo = 5 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 5;
+UPDATE Vendas SET tipoPagamento = 'Financiamento' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 6;
+UPDATE Vendas SET tipoPagamento = 'Cartão' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 7;
+UPDATE Vendas SET Garantia = 70 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 8;
+UPDATE Vendas SET tipoPagamento = 'Pix' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 9;
+UPDATE Vendas SET Garantia = 10 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 10;
 
-
-
-
-
+-- Update Veiculos_das_Vendas --
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'TundraMax'WHERE Veiculos_id_modelo = 'Samurai' AND Vendas_Clientes_id_Cpf = '123.456.789-10' AND Vendas_Funcionarios_id_CodigoVenda = 1;
+UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 30 WHERE Veiculos_id_modelo = 'APV' AND Vendas_Clientes_id_Cpf = '234.567.890-21' AND Vendas_Funcionarios_id_CodigoVenda = 2;
+UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 123456789-90 WHERE Veiculos_id_modelo = 'TundraMax' AND Vendas_Clientes_id_Cpf = '345.678.901-32' AND Vendas_Funcionarios_id_CodigoVenda = 3;
+UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 234567890-89 WHERE Veiculos_id_modelo = 'M-Class' AND Vendas_Clientes_id_Cpf = '567.890.123-64' AND Vendas_Funcionarios_id_CodigoVenda = 4;
+UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 28 WHERE Veiculos_id_modelo = 'Sierra 1500' AND Vendas_Clientes_id_Cpf = '567.890.123-64' AND Vendas_Funcionarios_id_CodigoVenda = 5;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Samurai' WHERE Veiculos_id_modelo = 'Escalade EXT' AND Vendas_Clientes_id_Cpf = '456.789.012-53' AND Vendas_Funcionarios_id_CodigoVenda = 6;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo =  'Grand Cherokee' WHERE Veiculos_id_modelo = 'Axiom' AND Vendas_Clientes_id_Cpf = '345.678.901-42' AND Vendas_Funcionarios_id_CodigoVenda = 7;
+UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 345678901-78 WHERE Veiculos_id_modelo = 'C70' AND Vendas_Clientes_id_Cpf = '789.012.345-76' AND Vendas_Funcionarios_id_CodigoVenda = 8;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo ='Vision' WHERE Veiculos_id_modelo = 'Grand Cherokee' AND Vendas_Clientes_id_Cpf = '234.567.890-31' AND Vendas_Funcionarios_id_CodigoVenda = 9;
+UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 33 WHERE Veiculos_id_modelo = '9-5' AND Vendas_Clientes_id_Cpf = '123.456.789-20' AND Vendas_Funcionarios_id_CodigoVenda = 10;
 
