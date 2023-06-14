@@ -385,4 +385,45 @@ DELETE FROM Veiculos WHERE Ano = 3 AND Fabricantes_idFabricante = 3;
 DELETE FROM Veiculos WHERE Acessorios = 4 AND Fabricantes_idFabricante = 4;
 DELETE FROM Veiculos WHERE Lotação = 5 AND Fabricantes_idFabricante = 1;
 
+-- Deletes Enderecos -- 
+DELETE FROM Enderecos WHERE id_Cep = 13.9938494 ;
+DELETE FROM Enderecos WHERE id_Cep = 34.083839737;
+DELETE FROM Enderecos WHERE id_Cep = 45.473637463 ;
+DELETE FROM Enderecos WHERE id_Cep = 52.4637362839 ;
+DELETE FROM Enderecos WHERE id_Cep = 99.5859494848 ;
+
+-- Deletes Funcionario -- 
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 11;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 12;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 13;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 14;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 10;
+
+
 -- Comentário: sigam a ordem das tabelas (exemplo: fabricantes, veiculos etc) e a ordem dos Deletes (10 e dps 5) --
+
+-- OS SELECT COUNT -- 
+-- Select Count Enderecos -- 
+SELECT COUNT(*) from enderecos; 
+
+-- Select Count Funcionario -- 
+SELECT COUNT(*) from funcionario;
+
+-- OS SELECT ALL -- 
+-- Select All Enderecos -- 
+SELECT * FROM `Enderecos` ORDER BY `id_Cep`;
+
+-- Select All Funcionario -- 
+SELECT * FROM `Funcionario` ORDER BY ` id_CodigoVenda `;
+
+-- Select Join de Veiculos_das_Vendas -- 
+SELECT *
+FROM Veiculos_das_Vendas
+INNER JOIN Veiculos ON Veiculos_das_Vendas.Veiculos_id_modelo = Veiculos.id_modelo
+INNER JOIN Vendas ON Veiculos_das_Vendas.Vendas_Clientes_id_Cpf = Vendas.Clientes_id_Cpf
+                  AND Veiculos_das_Vendas.Vendas_Funcionarios_id_CodigoVenda = Vendas.Funcionarios_id_CodigoVenda;
+
+
+
+
+
