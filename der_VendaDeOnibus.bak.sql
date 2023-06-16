@@ -289,11 +289,11 @@ insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) val
 SELECT COUNT(*) FROM Veiculos;
 SELECT * FROM Veiculos ORDER BY id_modelo ASC;
 -- Selects Enderecos -- 
-SELECT COUNT(*) from enderecos; 
-SELECT * FROM `Enderecos` ORDER BY `id_Cep`;
+SELECT COUNT(*) FROM enderecos; 
+SELECT * FROM Enderecos ORDER BY id_Cep ASC;
 -- Selects Funcionario -- 
-SELECT COUNT(*) from funcionario;
-SELECT * FROM Funcionario  ORDER BY funcionario_id ASC;
+SELECT COUNT(*) FROM funcionario;
+SELECT * FROM Funcionario  ORDER BY id_CodigoVenda ASC;
 
 -- Select Join de Veiculos_das_Vendas -- 
 SELECT *
@@ -332,16 +332,16 @@ UPDATE Veiculos SET Marca = 'Miata MX-5', Ano = 2007, Lotação = 38, Cor = 'Mau
 UPDATE Veiculos SET Marca = 'LS', Ano = 1991, Lotação = 31, Cor = 'Orange', Acessorios = 'Lixeira', TipodeFrota = 'Place', TipoCombustivel = 'Gasolina', KmVeiculo = 41, PortaVeiculo = 1 WHERE id_modelo = 10;
 
 -- Update Enderços --
-UPDATE Enderecos SET Numero = 123 WHERE id_Cep = 8.09635296;
-UPDATE Enderecos SET Cidade = 'Blumenau' WHERE id_Cep = 93.96922989;
-UPDATE Enderecos SET Bairro = 'Lagoa' WHERE id_Cep = 29.74477681;
-UPDATE Enderecos SET Rua = 'Geral Poço Grande' WHERE id_Cep = 64.02457725;
-UPDATE Enderecos SET Estado = 'Santa Catarina' WHERE id_Cep = 87.35168452;
-UPDATE Enderecos SET Numero = 456  WHERE id_Cep = 41.0592041;
-UPDATE Enderecos SET Cidade = 'Gaspar' WHERE id_Cep = 98.56426513;
-UPDATE Enderecos SET Bairro = 'Colinha' WHERE id_Cep = 24.00186145;
-UPDATE Enderecos SET Rua = 'maumau' WHERE id_Cep = 32.19858381;
-UPDATE Enderecos SET Estado = 'Parana' WHERE id_Cep = 60.83474012;
+UPDATE Enderecos SET id_Cep = '12345-678', Numero = 11, Cidade = 'Gaspar', Bairro = 'Lagoa', Rua = 'Geral', Estado = 'Santa Catarina' WHERE id_Cep = '12345-678';
+UPDATE Enderecos SET id_Cep = '98765-432', Numero = 2, Cidade = 'São Paulo', Bairro = 'Centro', Rua = 'Principal', Estado = 'São Paulo' WHERE id_Cep = '98765-432';
+UPDATE Enderecos SET id_Cep = '98765-432', Numero = 2, Cidade = 'Batasan', Bairro = 'Ganjaran', Rua = 'Kota Kinabalu', Estado = 'Melong' WHERE id_Cep = '98765-432';
+UPDATE Enderecos SET id_Cep = '56789-012', Numero = 3, Cidade = 'Hyltebruk', Bairro = 'Almelo', Rua = 'Los Angeles', Estado = 'Caicó' WHERE id_Cep = '56789-012';
+UPDATE Enderecos SET id_Cep = '21098-765', Numero = 444, Cidade = 'Klirou', Bairro = 'Hamhŭng', Rua = 'Gangu Chengguanzhen', Estado = 'Kathu' WHERE id_Cep = '21098-765';
+UPDATE Enderecos SET id_Cep = '34567-890',Numero = 55, Cidade = 'Yaogou', Bairro = 'Angra dos Reis', Rua = 'Prínos', Estado = 'Laxiong' WHERE id_Cep = '34567-890';
+UPDATE Enderecos SET id_Cep = '87654-321',Numero = 66, Cidade = 'Skatepark', Bairro = 'Jablonec nad Jizerou', Rua = 'Mibu', Estado = 'Lenger' WHERE id_Cep = '87654-321';
+UPDATE Enderecos SET id_Cep = '54321-098', Numero = 7, Cidade = 'Naschel', Bairro = 'Aoshi', Rua = 'Dahu', Estado = 'Catamayo' WHERE id_Cep = '54321-098';
+UPDATE Enderecos SET id_Cep = '89012-345', Numero = 8, Cidade = 'Lišov', Bairro = 'Mashi', Rua = 'Mapou', Estado = 'Vårgårda' WHERE id_Cep = '89012-345';
+UPDATE Enderecos SET id_Cep = '65432-109', Numero = 9, Cidade = 'Grenoble', Bairro = 'Sacramento', Rua = 'Baiima', Estado = 'Maradi' WHERE id_Cep = '65432-109';
 
 -- Update cliente empresa -- 
 UPDATE ClienteEmpresa SET Nome = 'João Oliveira' WHERE Cnpj = 12 AND Enderecos_id_Cep = 3;
@@ -356,16 +356,20 @@ UPDATE ClienteEmpresa SET telefoneComercial = 5540017899 WHERE Cnpj = 333444555 
 UPDATE ClienteEmpresa SET Email = 'lucasalmeida@gmail.com', TelefoneCelular = '4791142205' WHERE Cnpj = 67890123456698  AND Enderecos_id_Cep = 11781624;
 
 -- Update Funcionario -- 
-UPDATE Funcionarios SET  NomeFuncionario = 'Águida'  WHERE id_CodigoVenda = 11;
-UPDATE Funcionarios SET FaixaComissao = 2  WHERE id_CodigoVenda = 11;
-UPDATE Funcionarios SET CargoAtual = 'Gerente' WHERE id_CodigoVenda = 13;
-UPDATE Funcionarios SET NomeFuncionario = 'Maria'  WHERE id_CodigoVenda = 14;
-UPDATE Funcionarios SET FaixaComissao =  3  WHERE id_CodigoVenda = 10;
-UPDATE Funcionarios SET CargoAtual = 'Supervisor' WHERE id_CodigoVenda = 8;
-UPDATE Funcionarios SET NomeFuncionario = 'Bruna' WHERE id_CodigoVenda = 7;
-UPDATE Funcionarios SET FaixaComissao = 1 WHERE id_CodigoVenda = 8;
-UPDATE Funcionarios SET CargoAtual = 'Diretor'  WHERE id_CodigoVenda = 9;
-UPDATE Funcionarios SET NomeFuncionario = 'Daniel' WHERE id_CodigoVenda = 10;
+UPDATE Funcionario SET NomeFuncionario = 'Lola', FaixaComissao = '1%', CargoAtual = 'Faxineira' WHERE id_CodigoVenda = 1 ;
+UPDATE Funcionario SET NomeFuncionario = 'Kristina', FaixaComissao = '2%', CargoAtual = 'Motorista' WHERE id_CodigoVenda = 2;
+UPDATE Funcionario SET NomeFuncionario = 'Kimberley', FaixaComissao = '3%', CargoAtual = 'Gerente' WHERE id_CodigoVenda = 3 ;
+UPDATE Funcionario SET NomeFuncionario = 'Augusto', FaixaComissao = '4%', CargoAtual = 'Consultor de Vendas' WHERE id_CodigoVenda = 4;
+UPDATE Funcionario SET NomeFuncionario = 'Forrester', FaixaComissao = '5%', CargoAtual = 'Assistente' WHERE id_CodigoVenda = 5;
+UPDATE Funcionario SET NomeFuncionario = 'Herrick', FaixaComissao = '6%', CargoAtual = 'Analista' WHERE id_CodigoVenda = 6;
+UPDATE Funcionario SET NomeFuncionario = 'Rosalinda', FaixaComissao = '7%', CargoAtual = 'Diretor' WHERE id_CodigoVenda = 7 ;
+UPDATE Funcionario SET NomeFuncionario = 'Karil', FaixaComissao = '8%', CargoAtual = 'Coordenador' WHERE id_CodigoVenda = 8;
+UPDATE Funcionario SET NomeFuncionario = 'Nap', FaixaComissao = '9%', CargoAtual = 'Supervisor' WHERE  id_CodigoVenda = 9;
+UPDATE Funcionario SET NomeFuncionario = 'Zarla', FaixaComissao = '10%', CargoAtual = 'Vendedor' WHERE id_CodigoVenda = 10;
+
+
+
+
 
 -- Update Vendas --
 UPDATE Vendas SET tipoPagamento = 'Cartão',Clientes_id_Cpf = 1234567891-10  WHERE  Funcionarios_id_CodigoVenda = 1;
@@ -399,18 +403,23 @@ DELETE FROM Veiculos WHERE id_modelo = 4;
 DELETE FROM Veiculos WHERE id_modelo = 5;
 
 -- Deletes Enderecos -- 
-DELETE FROM Enderecos WHERE id_Cep = 13.9938494 ;
-DELETE FROM Enderecos WHERE id_Cep = 34.083839737;
-DELETE FROM Enderecos WHERE id_Cep = 45.473637463 ;
-DELETE FROM Enderecos WHERE id_Cep = 52.4637362839 ;
-DELETE FROM Enderecos WHERE id_Cep = 99.5859494848 ;
+DELETE FROM Enderecos WHERE id_Cep = 12345-678;
+DELETE FROM Enderecos WHERE id_Cep = 98765-432;
+DELETE FROM Enderecos WHERE id_Cep = 56789-012 ;
+DELETE FROM Enderecos WHERE id_Cep = 21098-765 ;
+DELETE FROM Enderecos WHERE id_Cep = 34567-890 ;
+
+
+
+
+
 
 -- Deletes Funcionario -- 
-DELETE FROM Funcionarios WHERE id_CodigoVenda = 11;
-DELETE FROM Funcionarios WHERE id_CodigoVenda = 12;
-DELETE FROM Funcionarios WHERE id_CodigoVenda = 13;
-DELETE FROM Funcionarios WHERE id_CodigoVenda = 14;
-DELETE FROM Funcionarios WHERE id_CodigoVenda = 10;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 1;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 2;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 3;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 4;
+DELETE FROM Funcionarios WHERE id_CodigoVenda = 5;
 
 
 -- Comentário: sigam a ordem das tabelas (exemplo: fabricantes, veiculos etc) e a ordem dos Deletes (10 e dps 5) --
