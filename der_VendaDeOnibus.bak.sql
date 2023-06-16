@@ -230,58 +230,58 @@ insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('C
 
 
 -- Inserts Vendas --
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (123456789-10, 1, 'Cartão', 8, 1);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (234567890-21, 2, 'Pix', 77, 2);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (34567801-32, 3, 'Cartão', 51, 3);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (567890123-64, 4, 'Pix', 36, 4);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (456.789012-67, 5, 'Financiamento', 39, 5);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (456789012-53, 6, 'Financiamento', 20, 6);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (345678901-42, 7, 'Cartão', 81, 7);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (789012345-76, 8, 'Cartão', 66, 8);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (234567890-31, 9, 'Pix', 61, 9);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (123456789-20 , 10, 'Pix', 2, 10);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (012345678-09, 11, 'Financiamento', 38, 11);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (567890123-56, 12, 'Cartão', 11, 12);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (901234567-98, 13, 'Pix', 48, 13);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (890123456-87, 14, 'Cartão', 48, 14);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (012345678-91, 15, 'Cartão', 52, 15);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (012345678-99, 16, 'Financiamento', 52, 16);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (901234567-88, 17, 'Pix', 49, 17);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (890123456-77, 18, 'Pix', 50, 18);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (789012345-66, 19, 'Financiamento', 84, 19);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (678901234-55, 20, 'Cartão', 59, 20);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (567890123-44, 21, 'Pix', 31, 21);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (456789012-33, 22, 'Financiamento', 26, 22);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (345678901-22, 23, 'Cartão', 84, 23);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (234567890-11, 24, 'Financiamento', 49, 24);
-insert into Vendas (Clientes_id_Cpf, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo) values (123456789-00, 25, 'Pix', 52, 25);
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (123456789-10,'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (234567890-21,'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (34567801-32,'Cartão');
+insert into Vendas(Clientes_id_Cpf, tipoPagamento) values (567890123-64, 'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (456789012-67, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (456789012-53,'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (345678901-42, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (789012345-76, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (234567890-31, 'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (123456789-20 , 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (012345678-09, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (567890123-56, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (901234567-98, 'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (890123456-87, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (012345678-91, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (012345678-99, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (901234567-88, 'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (890123456-77, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (789012345-66, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (678901234-55, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (567890123-44, 'Boleto');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (456789012-33, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (345678901-22, 'Cartão');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (234567890-11, 'Financiamento');
+insert into Vendas (Clientes_id_Cpf, tipoPagamento) values (123456789-00, 'Boleto');
 
 -- Inserts Veiculos das Vendas --
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Samurai', 123456789-10, 1);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('APV', 234567890-21, 2);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('TundraMax', 345678.01-32, 3);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('M-Class', 567890123-64, 4);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra 1500', 567890123-64, 5);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Escalade EXT', 456789012-53, 6);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Axiom', 345678901-42, 7);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C70', 789012345-76, 8);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Grand Cherokee',  234567890-31, 9);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('9-5', 123456789-20, 10);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Impala', 012345678-09, 11);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Maxima', 012345678-09, 12);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Sierra', 901234567-98, 13);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Montero Sport', 890123456-87, 14);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Accent', 012345678-91, 15);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CR-Z', 012345678-99, 16);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Cavalier', 901234567-88, 17);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('CX-7', 890123456-77, 18);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Focus', 789012345-66, 19);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('SC', 678901234-55, 20);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Vision', 567890123-44, 21);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Stanza', 456789012-33, 22);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('Silverado 1500', 345678901-22, 23);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('X5 M', 234567890-11, 24);
-insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf, Vendas_Funcionarios_id_CodigoVenda) values ('C-Class', 123456789-00, 25);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Samurai', 123456789-10);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('APV', 234567890-21);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('TundraMax', 345678.01-32);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('M-Class', 567890123-64);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Sierra 1500', 567890123-64);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Escalade EXT', 456789012-53);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Axiom', 345678901-42);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('C70', 789012345-76);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Grand Cherokee',  234567890-31);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('9-5', 123456789-20);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Impala', 012345678-09);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Maxima', 012345678-09);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Sierra', 901234567-98);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Montero Sport', 890123456-87);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Accent', 012345678-91);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('CR-Z', 012345678-99);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Cavalier', 901234567-88);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('CX-7', 890123456-77);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Focus', 789012345-66);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('SC', 678901234-55);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Vision', 567890123-44);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Stanza', 456789012-33);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('Silverado 1500', 345678901-22);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('X5 M', 234567890-11);
+insert into Veiculos_das_Vendas (Veiculos_id_modelo, Vendas_Clientes_id_Cpf) values ('C-Class', 123456789-00);
 
 -- Comentario: o select join fica por último, ou seja, depois dos seus selects. Sigam a ordem das tabelas (exemplo: fabricantes, veiculos etc). --
 
@@ -368,16 +368,16 @@ UPDATE Funcionarios SET CargoAtual = 'Diretor'  WHERE id_CodigoVenda = 9;
 UPDATE Funcionarios SET NomeFuncionario = 'Daniel' WHERE id_CodigoVenda = 10;
 
 -- Update Vendas --
-UPDATE Vendas SET tipoPagamento = 'Dinheiro' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 1;
-UPDATE Vendas SET tipoPagamento = 'Transferência' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 2;
-UPDATE Vendas SET Garantia = 60 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 3;
-UPDATE Vendas SET tipoPagamento = 'Boleto' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 4;
-UPDATE Vendas SET ReservaVeiculo = 5 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 5;
-UPDATE Vendas SET tipoPagamento = 'Financiamento' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 6;
-UPDATE Vendas SET tipoPagamento = 'Cartão' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 7;
-UPDATE Vendas SET Garantia = 70 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 8;
-UPDATE Vendas SET tipoPagamento = 'Pix' WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 9;
-UPDATE Vendas SET Garantia = 10 WHERE Clientes_id_Cpf = 12 AND Funcionarios_id_CodigoVenda = 10;
+UPDATE Vendas SET tipoPagamento = 'Cartão',Clientes_id_Cpf = 1234567891-10  WHERE  Funcionarios_id_CodigoVenda = 1;
+UPDATE Vendas SET tipoPagamento = 'Boleto' ,Clientes_id_Cpf = 234567890-21   WHERE  Funcionarios_id_CodigoVenda = 2;  
+UPDATE Vendas SET tipoPagamento = 'Cartão' ,Clientes_id_Cpf = 34567801-32   WHERE  Funcionarios_id_CodigoVenda = 3;
+UPDATE Vendas SET tipoPagamento = 'Boleto' ,Clientes_id_Cpf = 567890123-64  WHERE  Funcionarios_id_CodigoVenda = 4;
+UPDATE Vendas SET tipoPagamento = 'Financiamento' ,Clientes_id_Cpf = 456789012-67 WHERE  Funcionarios_id_CodigoVenda = 5;
+UPDATE Vendas SET tipoPagamento = 'Financiamento',Clientes_id_Cpf = 456789012-53  WHERE  Funcionarios_id_CodigoVenda =6;
+UPDATE Vendas SET tipoPagamento = 'Cartão' ,Clientes_id_Cpf = 345678901-42  WHERE  Funcionarios_id_CodigoVenda =7;
+UPDATE Vendas SET tipoPagamento = 'Cartão' ,Clientes_id_Cpf = 789012345-76  WHERE  Funcionarios_id_CodigoVenda = 8;
+UPDATE Vendas SET tipoPagamento = 'Boleto',Clientes_id_Cpf = 234567890-31   WHERE  Funcionarios_id_CodigoVenda = 9;
+UPDATE Vendas SET tipoPagamento = 'Financiamento' ,Clientes_id_Cpf = 123456789-20  WHERE  Funcionarios_id_CodigoVenda = 10;
 
 -- Update Veiculos_das_Vendas --
 UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'TundraMax'WHERE Veiculos_id_modelo = 'Samurai' AND Vendas_Clientes_id_Cpf = '123.456.789-10' AND Vendas_Funcionarios_id_CodigoVenda = 1;
