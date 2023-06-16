@@ -320,7 +320,7 @@ UPDATE Fabricantes SET Cidade = 'Nova Cidade 9' WHERE idFabricante = 9;
 UPDATE Fabricantes SET Telefone = 4755558888 WHERE idFabricante = 10;
 
 -- Update Veiculos --
-UPDATE Veiculos SET Marca = 'Ram 1500', Ano = 2006, Lotação = 49, Cor = 'Violet', Acessorios = 'Porta Copos', TipodeFrota = 'Street', TipoCombustivel = 'Gasolina', KmVeiculo = 59, PortaVeiculo = 2 WHERE id_modelo = 1;
+UPDATE Veiculos SET Marca = 'Ram 1500', Ano = 2006, Lotação = 49, Cor = 'Violet', Acessorios = 'Porta Copos', TipodeFrota = 'Street', TipoCombustivel = 'Gasolina', KmVeiculo = 59, PortaVeiculo = 2 WHERE id_modelo = 1 ;
 UPDATE Veiculos SET Marca = 'Camry', Ano = 1996, Lotação = 38, Cor = 'Teal', Acessorios = 'Ar-condicionado', TipodeFrota = 'Road', TipoCombustivel = 'Diesel', KmVeiculo = 70, PortaVeiculo = 1 WHERE id_modelo = 2;
 UPDATE Veiculos SET Marca = 'riolet', Ano = 1992, Lotação = 47, Cor = 'Khaki', Acessorios = 'Banheiro', TipodeFrota = 'Drive', TipoCombustivel = 'Gás', KmVeiculo = 32, PortaVeiculo = 2 WHERE id_modelo = 3;
 UPDATE Veiculos SET Marca = 'XK Series', Ano = 1997, Lotação = 10, Cor = 'Yellow', Acessorios = 'Frigobar', TipodeFrota = 'Crossing', TipoCombustivel = 'Gasolina', KmVeiculo = 73, PortaVeiculo = 1 WHERE id_modelo = 4;
@@ -380,16 +380,16 @@ UPDATE Vendas SET tipoPagamento = 'Boleto',Clientes_id_Cpf = 234567890-31   WHER
 UPDATE Vendas SET tipoPagamento = 'Financiamento' ,Clientes_id_Cpf = 123456789-20  WHERE  Funcionarios_id_CodigoVenda = 10;
 
 -- Update Veiculos_das_Vendas --
-UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'TundraMax'WHERE Veiculos_id_modelo = 'Samurai' AND Vendas_Clientes_id_Cpf = '123.456.789-10' AND Vendas_Funcionarios_id_CodigoVenda = 1;
-UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 30 WHERE Veiculos_id_modelo = 'APV' AND Vendas_Clientes_id_Cpf = '234.567.890-21' AND Vendas_Funcionarios_id_CodigoVenda = 2;
-UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 123456789-90 WHERE Veiculos_id_modelo = 'TundraMax' AND Vendas_Clientes_id_Cpf = '345.678.901-32' AND Vendas_Funcionarios_id_CodigoVenda = 3;
-UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 234567890-89 WHERE Veiculos_id_modelo = 'M-Class' AND Vendas_Clientes_id_Cpf = '567.890.123-64' AND Vendas_Funcionarios_id_CodigoVenda = 4;
-UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 28 WHERE Veiculos_id_modelo = 'Sierra 1500' AND Vendas_Clientes_id_Cpf = '567.890.123-64' AND Vendas_Funcionarios_id_CodigoVenda = 5;
-UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Samurai' WHERE Veiculos_id_modelo = 'Escalade EXT' AND Vendas_Clientes_id_Cpf = '456.789.012-53' AND Vendas_Funcionarios_id_CodigoVenda = 6;
-UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo =  'Grand Cherokee' WHERE Veiculos_id_modelo = 'Axiom' AND Vendas_Clientes_id_Cpf = '345.678.901-42' AND Vendas_Funcionarios_id_CodigoVenda = 7;
-UPDATE Veiculos_das_Vendas SET Vendas_Clientes_id_Cpf= 345678901-78 WHERE Veiculos_id_modelo = 'C70' AND Vendas_Clientes_id_Cpf = '789.012.345-76' AND Vendas_Funcionarios_id_CodigoVenda = 8;
-UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo ='Vision' WHERE Veiculos_id_modelo = 'Grand Cherokee' AND Vendas_Clientes_id_Cpf = '234.567.890-31' AND Vendas_Funcionarios_id_CodigoVenda = 9;
-UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 33 WHERE Veiculos_id_modelo = '9-5' AND Vendas_Clientes_id_Cpf = '123.456.789-20' AND Vendas_Funcionarios_id_CodigoVenda = 10;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Samurai', Vendas_Clientes_id_Cpf = 123456789-10 WHERE Vendas_Funcionarios_id_CodigoVenda = 1;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'APV'  , Vendas_Clientes_id_Cpf = 234567890-21 WHERE  Vendas_Funcionarios_id_CodigoVenda = 2;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'TundraMax', Vendas_Clientes_id_Cpf = 345678.01-32 WHERE Vendas_Funcionarios_id_CodigoVenda = 3;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'M-Class', Vendas_Clientes_id_Cpf = 567890123-64 WHERE Vendas_Funcionarios_id_CodigoVenda = 4;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Sierra 1500', Vendas_Clientes_id_Cpf = 567890123-64 WHERE Vendas_Funcionarios_id_CodigoVenda = 5;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Escalade EXT', Vendas_Clientes_id_Cpf = 456789012-53 WHERE  Vendas_Funcionarios_id_CodigoVenda = 6;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Axiom', Vendas_Clientes_id_Cpf = 345678901-42 WHERE Vendas_Funcionarios_id_CodigoVenda = 7;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'C70', Vendas_Clientes_id_Cpf = 789012345-76 WHERE Vendas_Funcionarios_id_CodigoVenda = 8;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = 'Grand Cherokee', Vendas_Clientes_id_Cpf =  234567890-31 WHERE  Vendas_Funcionarios_id_CodigoVenda = 9;
+UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo = '9-5', Vendas_Clientes_id_Cpf = 123456789-20 WHERE Vendas_Funcionarios_id_CodigoVenda = 10;
 
 -- Deletes Veiculos --
 DELETE FROM Veiculos WHERE id_modelo = 1;
