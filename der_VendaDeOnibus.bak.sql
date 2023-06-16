@@ -93,31 +93,31 @@ CREATE TABLE IF NOT EXISTS `Veiculos_das_Vendas` (
 
 -- COMENTARIO: TIRAR OS IDs DOS INSERTS --
 
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (1, 'Morganne', 'Makīnsk', '+76 41 5493 7628');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (2, 'Giulia', 'Invermere', '+16 57 5200 8117');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (3, 'Lebbie', 'Sumbawa Besar', '+62 41 3962 5067');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (4, 'Natal', 'Желино', '+38 27 1637 8618');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (5, 'Blondelle', 'Amangarh', '+92 32 1170 2326');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (6, 'Cleopatra', 'Invermere', '+17 32 4114 8001');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (7, 'Alphonso', 'Ganquan', '+86 14 7124 6286');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (8, 'Krishna', 'Bzou', '+21 74 5561 9540');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (9, 'Hedwiga', 'Igbo Ora', '+23 56 4713 6000');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (10, 'Antoinette', 'Kanḏay', '+93 72 6375 1221');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (11, 'Val', 'Redon', '+33 64 3211 6676');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (12, 'Gisele', 'Pakisaji', '+62 94 3758 4522');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (13, 'Berkie', 'Nara-shi', '+81 62 9167 2687');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (14, 'Isabeau', 'Kilmacanoge', '+35 24 4414 7256');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (15, 'Mattheus', 'Janūb as Surrah', '+96 83 8294 0353');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (16, 'Pegeen', 'Vostok', '+78 39 3635 9786');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (17, 'Aidan', 'Foluo', '+86 87 8211 7074');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (18, 'Thorny', 'Tibakisa', '+62 12 5468 6051');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (19, 'Thayne', 'Muarabadak', '+62 78 8284 2849');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (20, 'Sela', 'Tianyu', '+86 96 1884 7083');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (21, 'Portia', 'Cahors', '+33 64 7321 2019');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (22, 'Skippie', 'Guocun', '+86 58 1897 0940');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (23, 'Mercedes', 'Saarbrücken', '+49 53 9904 6163');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (24, 'Mona', 'Xinhua', '+86 52 3761 7894');
-insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (25, 'Della', 'Tajumulco', '+50 45 3961 9685');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Morganne', 'Makīnsk', '+76 41 5493 7628');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Giulia', 'Invermere', '+16 57 5200 8117');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Lebbie', 'Sumbawa Besar', '+62 41 3962 5067');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Natal', 'Желино', '+38 27 1637 8618');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Blondelle', 'Amangarh', '+92 32 1170 2326');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Cleopatra', 'Invermere', '+17 32 4114 8001');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Alphonso', 'Ganquan', '+86 14 7124 6286');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Krishna', 'Bzou', '+21 74 5561 9540');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Hedwiga', 'Igbo Ora', '+23 56 4713 6000');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Antoinette', 'Kanḏay', '+93 72 6375 1221');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Val', 'Redon', '+33 64 3211 6676');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Gisele', 'Pakisaji', '+62 94 3758 4522');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Berkie', 'Nara-shi', '+81 62 9167 2687');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Isabeau', 'Kilmacanoge', '+35 24 4414 7256');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Mattheus', 'Janūb as Surrah', '+96 83 8294 0353');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Pegeen', 'Vostok', '+78 39 3635 9786');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Aidan', 'Foluo', '+86 87 8211 7074');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Thorny', 'Tibakisa', '+62 12 5468 6051');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Thayne', 'Muarabadak', '+62 78 8284 2849');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Sela', 'Tianyu', '+86 96 1884 7083');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Portia', 'Cahors', '+33 64 7321 2019');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Skippie', 'Guocun', '+86 58 1897 0940');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Volvo Buses', 'Mercedes', 'Saarbrücken', '+49 53 9904 6163');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Daimler Buses', 'Mona', 'Xinhua', '+86 52 3761 7894');
+insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values ('Marcopolo', 'Della', 'Tajumulco', '+50 45 3961 9685');
 
 
 -- Inserts Veiculos -- 
@@ -175,31 +175,31 @@ insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (4321
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98765-432, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
 
 -- Inserts Cliente Empresa -- 
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (1, 'Sonny', 1, 1, 'sgoane0@shinystat.com', 1);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (2, 'Jayne', 2, 2, 'jgentil1@ustream.tv', 2);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (3, 'Ware', 3, 3, 'wskelhorne2@globo.com', 3);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (4, 'Hazel', 4, 4, 'hrollin3@w3.org', 4);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (5, 'Angus', 5, 5, 'agunda4@cmu.edu', 5);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (6, 'Bil', 6, 6, 'bbulbeck5@ted.com', 6);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (7, 'Regina', 7, 7, 'rbraffington6@mayoclinic.com', 7);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (8, 'Arie', 8, 8, 'aedmenson7@businesswire.com', 8);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (9, 'Rosalia', 9, 9, 'rcrosio8@ihg.com', 9);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (10, 'Aurelea', 10, 10, 'ademaria9@etsy.com', 10);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (11, 'Gertrud', 11, 11, 'ggeorga@admin.ch', 11);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (12, 'Fidel', 12, 12, 'fwilneb@e-recht24.de', 12);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (13, 'Pembroke', 13, 13, 'pmartignonc@w3.org', 13);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (14, 'Tedman', 14, 14, 'tschimonid@ucsd.edu', 14);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (15, 'Antin', 15, 15, 'acleatore@cbsnews.com', 15);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (16, 'Pearle', 16, 16, 'pmatelaitisf@over-blog.com', 16);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (17, 'Daryle', 17, 17, 'dcarelessg@addtoany.com', 17);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (18, 'Agatha', 18, 18, 'ajosephsonh@mozilla.com', 18);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (19, 'Hillard', 19, 19, 'hcallami@arstechnica.com', 19);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (20, 'Bondon', 20, 20, 'bhuckerbyj@disqus.com', 20);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (21, 'Merridie', 21, 21, 'mschubuserk@senate.gov', 21);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (22, 'Berke', 22, 22, 'bdunhaml@time.com', 22);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (23, 'Hanni', 23, 23, 'hmorettom@hostgator.com', 23);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (24, 'Cullin', 24, 24, 'cmcpartlingn@xinhuanet.com', 24);
-insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (25, 'El', 25, 25, 'epigfordo@virginia.edu', 25);
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('36272954551234', 'Justen', '1657959341', '12345-678', 'jsturmey0@wp.com', '6514792446');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('06649113665678', 'Lucie', '8128877662', '98765-432', 'lportman1@chronoengine.com', '9715415028');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('24104085759876', 'Kristos', '3534442427', '56789-012', 'kstanlake2@jugem.jp', '1938475602');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('53047807015422', 'Igor', '1565984189', '21098-765', 'icadell3@spiegel.de', '8451335877');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('42744495641243', 'Skell', '7156617887', '34567-890', 'smulliss4@biblegateway.com', '9903719082');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('44096288875643', 'Marcellus', '5406856655', '87654-321', 'mpennazzi5@google.co.jp', '5311967864');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('87724616836754', 'Lishe', '7238638880', '54321-098', 'lturmel6@webs.com', '1038955973');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('33516866258976', 'Berenice', '3707439756', '54321-098', 'bbaudy7@imdb.com', '2648692101');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('42273050479087', 'Alberta', '9763244084', '89012-345', 'aballeine8@is.gd', '4407832051');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('28267194409773', 'Melodie', '8058101531', '65432-109', 'mbrightey9@posterous.com', '5253825383');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('47860134632345', 'Marice', '8857090644', '10987-654', 'mtowna@github.com', '9484261763');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('12007834411256', 'Tobin', '9275472609', '78901-234', 'tschettinib@tripadvisor.com', '3315335358');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('75523634443215', 'Seana', '5787941299', '21098-765', 'struec@prnewswire.com', '7449550775');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('83471682297869', 'Valenka', '8371213222', '34567-890', 'vwilded@flickr.com', '8032060588');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('29745217703421', 'Thedrick', '2351071259', '87654-321', 'tcroncheye@google.com.au', '6529119042');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('14948745635678', 'Collen', '1619809503', '54321-098', 'crazzellf@sbwire.com', '2974702182');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('29272750099876', 'Dermot', '4683192131', '89012-345', 'dklousnerg@archive.org', '9852457558');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('05326691697865', 'Clyde', '4946366458', '65432-109', 'cjammeh@independent.co.uk', '4526251025');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('15278488173456', 'Bucky', '4353327717', '10987-654', 'bspraggsi@weibo.com', '2304321725');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('23207184432134', 'Nikolai', '1995105032', '43210-987', 'nanglissj@fda.gov', '7366609651');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('93976908176785', 'Brion', '4943617423', '76543-210', 'bbrocktonk@jimdo.com', '9641835130');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('07524728958976', 'Fayre', '5783254448', '21034-567', 'fstoadl@cafepress.com', '4596291922');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('18247580570934', 'Brigg', '1108989806', '67890-123', 'bgreenhowm@exblog.jp', '7782779892');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('86174083322134', 'Phillida', '1383368445', '43210-987', 'plillimann@istockphoto.com', '2597408002');
+insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('40353720804576', 'Ruttger', '7569653916', '98765-432', 'rmccreatho@newsvine.com', '7259410162');
 
 -- Inserts Funcionario --
 insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Dore', '1%', 1);
