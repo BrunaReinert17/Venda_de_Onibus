@@ -148,31 +148,31 @@ insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoC
 insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Wrangler', 1993, 52, 'Pink', 'Lixeira', 'Junction', 'Gasolina', 86, 2);
 
 -- Inserts Enderecos --
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (8.09635296, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (93.96922989, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (18.83448994, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (36.02280307, 4, 'Klirou', 'Hamhŭng', 'Gangu Chengguanzhen', 'Kathu');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (29.74477681, 5, 'Yaogou', 'Angra dos Reis', 'Prínos', 'Laxiong');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (31.88375906, 6, 'Skatepark', 'Jablonec nad Jizerou', 'Mibu', 'Lenger');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (64.02457725, 7, 'Naschel', 'Aoshi', 'Dahu', 'Catamayo');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (92.33638383, 8, 'Lišov', 'Mashi', 'Mapou', 'Vårgårda');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (49.70551522, 9, 'Grenoble', 'Sacramento', 'Baiima', 'Maradi');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (86.16987814, 10, 'Qinhe', 'Futian', 'Novi Kneževac', 'Zhongpai');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (87.35168452, 11, 'Sanxing', 'Dajanrurung', 'Sibulan', 'San Antonio de los Baños');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98.56426513, 12, 'Gechuan', 'Gongpo', 'Staroderevyankovskaya', 'Curvelo');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (45.29208355, 13, 'Trzin', 'Zbrosławice', 'Makadi Bay', 'Krajan Battal');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.38882444, 14, 'Gamut', 'Niamtougou', 'Grande Cache', 'Motuo');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (68.65026023, 15, 'Cigadog', 'Saboyá', 'Anrong', 'Algoz');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.00186145, 16, 'Solna', 'Zhoutian', 'Mishkino', 'Guacarí');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (47.21305087, 17, 'Nova Olímpia', 'Hongmei', 'Volgodonsk', 'Villa Concepción del Tío');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (32.19858381, 18, 'Donglu', 'Không', 'Batouri', 'Lidingö');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (56.40057465, 19, 'Krajan Satu', 'Munde', 'Luleå', 'Ar Ramāḑīn');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (78.56220169, 20, 'Manna', 'Banisilan', 'Juncalito Abajo', 'Confey');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (41.0592041, 21, 'Oropesa', 'Doujia', 'Havre-Saint-Pierre', 'Korba');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54.40037294, 22, 'Belfort', 'Tarascon', 'Staten Island', 'Safotulafai');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (95.77739977, 23, 'Thung Yang Daeng', 'Goiatuba', 'Sol’tsy', 'Shangde');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (24.84726951, 24, 'Ongabelen', 'Huanggong', 'Krajan', 'Santana');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (60.83474012, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (12345-678, 11, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98765-432, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (56789-012, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (21098-765, 444, 'Klirou', 'Hamhŭng', 'Gangu Chengguanzhen', 'Kathu');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (34567-890, 55, 'Yaogou', 'Angra dos Reis', 'Prínos', 'Laxiong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (87654-321, 66, 'Skatepark', 'Jablonec nad Jizerou', 'Mibu', 'Lenger');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54321-098, 7, 'Naschel', 'Aoshi', 'Dahu', 'Catamayo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (89012-345, 8, 'Lišov', 'Mashi', 'Mapou', 'Vårgårda');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (65432-109, 9, 'Grenoble', 'Sacramento', 'Baiima', 'Maradi');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (10987-654, 10, 'Qinhe', 'Futian', 'Novi Kneževac', 'Zhongpai');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (43210-987, 11, 'Sanxing', 'Dajanrurung', 'Sibulan', 'San Antonio de los Baños');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (78901-234, 12, 'Gechuan', 'Gongpo', 'Staroderevyankovskaya', 'Curvelo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (21098-765, 13, 'Trzin', 'Zbrosławice', 'Makadi Bay', 'Krajan Battal');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (34567-890, 14, 'Gamut', 'Niamtougou', 'Grande Cache', 'Motuo');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (87654-321, 15, 'Cigadog', 'Saboyá', 'Anrong', 'Algoz');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54321-098, 16, 'Solna', 'Zhoutian', 'Mishkino', 'Guacarí');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (89012-345, 17, 'Nova Olímpia', 'Hongmei', 'Volgodonsk', 'Villa Concepción del Tío');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (65432-109, 18, 'Donglu', 'Không', 'Batouri', 'Lidingö');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (10987-654, 68, 'Krajan Satu', 'Munde', 'Luleå', 'Ar Ramāḑīn');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (43210-987, 21, 'Manna', 'Banisilan', 'Juncalito Abajo', 'Confey');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (76543-210, 26, 'Oropesa', 'Doujia', 'Havre-Saint-Pierre', 'Korba');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (21034-567, 22, 'Belfort', 'Tarascon', 'Staten Island', 'Safotulafai');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (67890-123, 23, 'Thung Yang Daeng', 'Goiatuba', 'Sol’tsy', 'Shangde');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (43210-987, 24, 'Ongabelen', 'Huanggong', 'Krajan', 'Santana');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98765-432, 25, 'Naawan', 'Ban Mai', 'Liuhe', 'Lidong');
 
 -- Inserts Cliente Empresa -- 
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (1, 'Sonny', 1, 1, 'sgoane0@shinystat.com', 1);
@@ -202,31 +202,31 @@ insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Ema
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values (25, 'El', 25, 25, 'epigfordo@virginia.edu', 25);
 
 -- Inserts Funcionario --
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (1, 'Dore', 1, 1);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (2, 'Kristina', 2, 2 );
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (3, 'Kimberley', 3, 3);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (4, 'Augustin', 4, 4);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (5, 'Forrester', 5, 5);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (6, 'Herrick', 6, 6);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (7, 'Rosalinda', 7, 7);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (8, 'Karil', 8, 8);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (9, 'Nap', 9, 9);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (10, 'Zarla', 10, 10);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (11, 'Bax', 11, 11);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (12, 'Wilona', 12, 12);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (13, 'Samuel', 13, 13);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (14, 'Alyson', 14, 14);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (15, 'Persis', 15, 15);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (16, 'Mireielle', 16, 16);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (17, 'Darcy', 17, 17);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (18, 'Ivor', 18, 18);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (19, 'L;urette', 19, 19);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (20, 'Rockwell', 20, 20);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (21, 'Mace', 21, 21);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (22, 'Craig', 22, 22);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (23, 'Bea', 23, 23);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (24, 'Wilden', 24, 24);
-insert into Funcionario (Id_CodigoVenda, NomeFuncionario, FaixaComissao, CargoAtual) values (25, 'Cobb', 25, 25);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Dore', '1%', 1);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kristina', '2%', 2 );
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kimberley', '3%', 3);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Augustin', '4%', 4);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Forrester', '5%', 5);
+insert into Funcionario (NomeFuncionario, FaixaComissao, CargoAtual) values ('Herrick', '6%', 6);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rosalinda', '7%', 7);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Karil', '8%', 8);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Nap', '9%', 9);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Zarla', '10%', 10);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bax', '11%', 11);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilona', '2,2%', 12);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Samuel', '1%', 13);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Alyson', '4%', 14);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Persis', '15%', 15);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mireielle', '16%', 16);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Darcy', '17%', 17);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Ivor', '18%', 18);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('L;urette', '19%', 19);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rockwell', '20%', 20);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mace', '21%', 21);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Craig', '22%', 22);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bea', '23%', 23);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilden', '24%', 24);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Cobb', '25%', 25);
 
 
 -- Inserts Vendas --
