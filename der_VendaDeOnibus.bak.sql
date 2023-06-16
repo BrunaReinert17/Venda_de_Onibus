@@ -121,31 +121,31 @@ insert into Fabricantes (idfabricante, NomeEmpresa, Cidade, Telefone) values (25
 
 
 -- Inserts Veiculos -- 
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (1, 'Ram 1500', 2006, 49, 'Violet', 'Porta Copos', 'Street', 'Gasolina', 59, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (2, 'Camry', 1996, 38, 'Teal', 'Ar-condicionado', 'Road', 'Diesel', 70, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (3, 'riolet', 1992, 47, 'Khaki', 'Banheiro','Drive', 'Gás', 32, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (4, 'XK Series', 1997, 10, 'Yellow', 'Frigobar', 'Crossing', 'Gasolina', 73, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (5, 'Sedona', 2011, 34, 'Violet', 'Lixeira','Plaza', 'Diesel', 84, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (6, 'Elise', 2004, 30, 'Goldenrod', 'Porta Copos', 'Park', 'Gás', 63, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (7, 'Aerio', 2002, 34, 'Blue', 'Ar-condicionado', 'Court', 'Gasolina', 66, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (8, 'Eclipse', 2007, 29, 'Maroon', 'Banheiro','Junction', 'Diesel', 29, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (9, 'Miata MX-5', 2007, 38, 'Mauv', 'Frigobar', 'Point', 'Gás',  54, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (10, 'LS', 1991, 31, 'Orange', 'Lixeira', 'Place', 'Gasolina', 41, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (11, 'Bronco', 1985, 39, 'Khaki', 'Porta Copos', 'Drive', 'Diesel', 69, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (12, 'Grand Voyager', 1992, 50, 'Maroon', 'Ar-condicionado', 'Terrace', 'Gás', 72, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (13, 'Sportage', 2000, 13, 'Mauv', 'Banheiro', 'Hill', 'Gasolina', 36, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (14, 'GranTurismo', 2009, 9, 'Orange', 'Frigobar', 'Hill', 'Diesel', 88, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (15, 'Pathfinder', 2008, 41, 'Orange', 'Lixeira', 'Court', 'Gás', 16, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (16, 'Falcon', 1966, 36, 'Goldenrod', 'Porta Copos', 'Pass', 'Gasolina', 66, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (17, '645', 2005, 20, 'Blue', 'Ar-condicionado', 'Avenue', 'Diesel', 85, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (18, 'Sorento', 2007, 17, 'Orange', 'Banheiro', 'Terrace', 'Gás', 75, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (19, 'Discovery', 2004, 35, 'Purple', 'Frigobar', 'Place', 'Gasolina', 58, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (20, 'Tucson', 2007, 29, 'Crimson', 'Lixeira', 'Parkway', 'Diesel', 33, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (21, 'LeMans', 1992, 4, 'Blue', 'Porta Copos', 'Center', 'Gás', 71, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (22, 'Rainier', 2006, 13, 'Teal', 'Ar-condicionado', 'Avenue', 'Gasolina', 36, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (23, 'Yukon XL 2500', 2003, 48, 'Puce', 'Banheiro', 'Park', 'Diesel', 49, 2);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (24, 'del Sol', 1997, 9, 'Purple', 'Frigobar', 'Court', 'Gás', 16, 1);
-insert into Veiculos (Veiculos_id, Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values (25, 'Wrangler', 1993, 52, 'Pink', 'Lixeira', 'Junction', 'Gasolina', 86, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Ram 1500', 2006, 49, 'Violet', 'Porta Copos', 'Street', 'Gasolina', 59, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Camry', 1996, 38, 'Teal', 'Ar-condicionado', 'Road', 'Diesel', 70, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('riolet', 1992, 47, 'Khaki', 'Banheiro','Drive', 'Gás', 32, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('XK Series', 1997, 10, 'Yellow', 'Frigobar', 'Crossing', 'Gasolina', 73, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Sedona', 2011, 34, 'Violet', 'Lixeira','Plaza', 'Diesel', 84, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Elise', 2004, 30, 'Goldenrod', 'Porta Copos', 'Park', 'Gás', 63, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Aerio', 2002, 34, 'Blue', 'Ar-condicionado', 'Court', 'Gasolina', 66, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Eclipse', 2007, 29, 'Maroon', 'Banheiro','Junction', 'Diesel', 29, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Miata MX-5', 2007, 38, 'Mauv', 'Frigobar', 'Point', 'Gás',  54, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('LS', 1991, 31, 'Orange', 'Lixeira', 'Place', 'Gasolina', 41, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Bronco', 1985, 39, 'Khaki', 'Porta Copos', 'Drive', 'Diesel', 69, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Grand Voyager', 1992, 50, 'Maroon', 'Ar-condicionado', 'Terrace', 'Gás', 72, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Sportage', 2000, 13, 'Mauv', 'Banheiro', 'Hill', 'Gasolina', 36, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('GranTurismo', 2009, 9, 'Orange', 'Frigobar', 'Hill', 'Diesel', 88, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Pathfinder', 2008, 41, 'Orange', 'Lixeira', 'Court', 'Gás', 16, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Falcon', 1966, 36, 'Goldenrod', 'Porta Copos', 'Pass', 'Gasolina', 66, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('645', 2005, 20, 'Blue', 'Ar-condicionado', 'Avenue', 'Diesel', 85, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Sorento', 2007, 17, 'Orange', 'Banheiro', 'Terrace', 'Gás', 75, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Discovery', 2004, 35, 'Purple', 'Frigobar', 'Place', 'Gasolina', 58, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Tucson', 2007, 29, 'Crimson', 'Lixeira', 'Parkway', 'Diesel', 33, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('LeMans', 1992, 4, 'Blue', 'Porta Copos', 'Center', 'Gás', 71, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Rainier', 2006, 13, 'Teal', 'Ar-condicionado', 'Avenue', 'Gasolina', 36, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Yukon XL 2500', 2003, 48, 'Puce', 'Banheiro', 'Park', 'Diesel', 49, 2);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('del Sol', 1997, 9, 'Purple', 'Frigobar', 'Court', 'Gás', 16, 1);
+insert into Veiculos (Marca, Ano, Lotação, Cor, Acessorios, TipodeFrota, TipoCombustivel, KmVeiculo, PortaVeiculo) values ('Wrangler', 1993, 52, 'Pink', 'Lixeira', 'Junction', 'Gasolina', 86, 2);
 
 -- Inserts Enderecos --
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (8.09635296, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
@@ -320,17 +320,16 @@ UPDATE Fabricantes SET Cidade = 'Nova Cidade 9' WHERE idFabricante = 9;
 UPDATE Fabricantes SET Telefone = 4755558888 WHERE idFabricante = 10;
 
 -- Update Veiculos --
-UPDATE Veiculos SET Marca = 'Ram 1500', Ano = 2006, Lotação = 49, Cor = 'Violet', Acessorios = 'Porta Copos', TipodeFrota = 'Street', TipoCombustivel = 'Gasolina', KmVeiculo = 59, PortaVeiculo = 2 WHERE veiculos_id = 1;
-UPDATE Veiculos SET Marca = 'Camry', Ano = 1996, Lotação = 38, Cor = 'Teal', Acessorios = 'Ar-condicionado', TipodeFrota = 'Road', TipoCombustivel = 'Diesel', KmVeiculo = 70, PortaVeiculo = 1 WHERE veiculos_id = 2;
-UPDATE Veiculos SET Marca = 'riolet', Ano = 1992, Lotação = 47, Cor = 'Khaki', Acessorios = 'Banheiro', TipodeFrota = 'Drive', TipoCombustivel = 'Gás', KmVeiculo = 32, PortaVeiculo = 2 WHERE veiculos_id = 3;
-UPDATE Veiculos SET Marca = 'XK Series', Ano = 1997, Lotação = 10, Cor = 'Yellow', Acessorios = 'Frigobar', TipodeFrota = 'Crossing', TipoCombustivel = 'Gasolina', KmVeiculo = 73, PortaVeiculo = 1 WHERE veiculos_id = 4;
-UPDATE Veiculos SET Marca = 'Sedona', Ano = 2011, Lotação = 34, Cor = 'Violet', Acessorios = 'Lixeira', TipodeFrota = 'Plaza', TipoCombustivel = 'Diesel', KmVeiculo = 84, PortaVeiculo = 2 WHERE veiculos_id = 5;
-UPDATE Veiculos SET Marca = 'Elise', Ano = 2004, Lotação = 30, Cor = 'Goldenroad', Acessorios = 'Porta Copos', TipodeFrota = 'Park', TipoCombustivel = 'Gás', KmVeiculo = 63, PortaVeiculo = 1 WHERE veiculos_id = 6;
-UPDATE Veiculos SET Marca = 'Aerio', Ano = 2002, Lotação = 34, Cor = 'Blue', Acessorios = 'Ar-condicionado', TipodeFrota = 'Court', TipoCombustivel = 'Gasolina', KmVeiculo = 66, PortaVeiculo = 2 WHERE veiculos_id = 7;
-UPDATE Veiculos SET Marca = 'Eclipse', Ano = 2007, Lotação = 29, Cor = 'Maroon', Acessorios = 'Banheiro', TipodeFrota = 'Junction', TipoCombustivel = 'Diesel', KmVeiculo = 29, PortaVeiculo = 1 WHERE veiculos_id = 8;
-UPDATE Veiculos SET Marca = 'Miata MX-5', Ano = 2007, Lotação = 38, Cor = 'Mauv', Acessorios = 'Frigobar', TipodeFrota = 'Point', TipoCombustivel = 'Gás', KmVeiculo = 54, PortaVeiculo = 2 WHERE veiculos_id = 9;
-UPDATE Veiculos SET Marca = 'LS', Ano = 1991, Lotação = 31, Cor = 'Orange', Acessorios = 'Lixeira', TipodeFrota = 'Place', TipoCombustivel = 'Gasolina', KmVeiculo = 41, PortaVeiculo = 1 WHERE veiculos_id = 10;
--- Continuar --
+UPDATE Veiculos SET Marca = 'Ram 1500', Ano = 2006, Lotação = 49, Cor = 'Violet', Acessorios = 'Porta Copos', TipodeFrota = 'Street', TipoCombustivel = 'Gasolina', KmVeiculo = 59, PortaVeiculo = 2 WHERE id_modelo = 1;
+UPDATE Veiculos SET Marca = 'Camry', Ano = 1996, Lotação = 38, Cor = 'Teal', Acessorios = 'Ar-condicionado', TipodeFrota = 'Road', TipoCombustivel = 'Diesel', KmVeiculo = 70, PortaVeiculo = 1 WHERE id_modelo = 2;
+UPDATE Veiculos SET Marca = 'riolet', Ano = 1992, Lotação = 47, Cor = 'Khaki', Acessorios = 'Banheiro', TipodeFrota = 'Drive', TipoCombustivel = 'Gás', KmVeiculo = 32, PortaVeiculo = 2 WHERE id_modelo = 3;
+UPDATE Veiculos SET Marca = 'XK Series', Ano = 1997, Lotação = 10, Cor = 'Yellow', Acessorios = 'Frigobar', TipodeFrota = 'Crossing', TipoCombustivel = 'Gasolina', KmVeiculo = 73, PortaVeiculo = 1 WHERE id_modelo = 4;
+UPDATE Veiculos SET Marca = 'Sedona', Ano = 2011, Lotação = 34, Cor = 'Violet', Acessorios = 'Lixeira', TipodeFrota = 'Plaza', TipoCombustivel = 'Diesel', KmVeiculo = 84, PortaVeiculo = 2 WHERE id_modelo = 5;
+UPDATE Veiculos SET Marca = 'Elise', Ano = 2004, Lotação = 30, Cor = 'Goldenroad', Acessorios = 'Porta Copos', TipodeFrota = 'Park', TipoCombustivel = 'Gás', KmVeiculo = 63, PortaVeiculo = 1 WHERE id_modelo = 6;
+UPDATE Veiculos SET Marca = 'Aerio', Ano = 2002, Lotação = 34, Cor = 'Blue', Acessorios = 'Ar-condicionado', TipodeFrota = 'Court', TipoCombustivel = 'Gasolina', KmVeiculo = 66, PortaVeiculo = 2 WHERE id_modelo = 7;
+UPDATE Veiculos SET Marca = 'Eclipse', Ano = 2007, Lotação = 29, Cor = 'Maroon', Acessorios = 'Banheiro', TipodeFrota = 'Junction', TipoCombustivel = 'Diesel', KmVeiculo = 29, PortaVeiculo = 1 WHERE id_modelo = 8;
+UPDATE Veiculos SET Marca = 'Miata MX-5', Ano = 2007, Lotação = 38, Cor = 'Mauv', Acessorios = 'Frigobar', TipodeFrota = 'Point', TipoCombustivel = 'Gás', KmVeiculo = 54, PortaVeiculo = 2 WHERE id_modelo = 9;
+UPDATE Veiculos SET Marca = 'LS', Ano = 1991, Lotação = 31, Cor = 'Orange', Acessorios = 'Lixeira', TipodeFrota = 'Place', TipoCombustivel = 'Gasolina', KmVeiculo = 41, PortaVeiculo = 1 WHERE id_modelo = 10;
 
 -- Update Enderços --
 UPDATE Enderecos SET Numero = 123 WHERE id_Cep = 8.09635296;
@@ -393,22 +392,11 @@ UPDATE Veiculos_das_Vendas SET Veiculos_id_modelo ='Vision' WHERE Veiculos_id_mo
 UPDATE Veiculos_das_Vendas SET Vendas_Funcionarios_id_CodigoVenda = 33 WHERE Veiculos_id_modelo = '9-5' AND Vendas_Clientes_id_Cpf = '123.456.789-20' AND Vendas_Funcionarios_id_CodigoVenda = 10;
 
 -- Deletes Veiculos --
-DELETE FROM Veiculos WHERE Veiculos_id = 1;
-DELETE FROM Veiculos WHERE Veiculos_id = 2;
-DELETE FROM Veiculos WHERE Veiculos_id = 3;
-DELETE FROM Veiculos WHERE Veiculos_id = 4;
-DELETE FROM Veiculos WHERE Veiculos_id = 5;
-DELETE FROM Veiculos WHERE Veiculos_id = 6;
-DELETE FROM Veiculos WHERE Veiculos_id = 7;
-DELETE FROM Veiculos WHERE Veiculos_id = 8;
-DELETE FROM Veiculos WHERE Veiculos_id = 9;
-DELETE FROM Veiculos WHERE Veiculos_id = 10;
-
-DELETE FROM Veiculos WHERE Veiculos_id = 1;
-DELETE FROM Veiculos WHERE Veiculos_id = 2;
-DELETE FROM Veiculos WHERE Veiculos_id = 3;
-DELETE FROM Veiculos WHERE Veiculos_id = 4;
-DELETE FROM Veiculos WHERE Veiculos_id = 5;
+DELETE FROM Veiculos WHERE id_modelo = 1;
+DELETE FROM Veiculos WHERE id_modelo = 2;
+DELETE FROM Veiculos WHERE id_modelo = 3;
+DELETE FROM Veiculos WHERE id_modelo = 4;
+DELETE FROM Veiculos WHERE id_modelo = 5;
 
 -- Deletes Enderecos -- 
 DELETE FROM Enderecos WHERE id_Cep = 13.9938494 ;
