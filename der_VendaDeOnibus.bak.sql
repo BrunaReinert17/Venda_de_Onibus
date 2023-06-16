@@ -202,31 +202,31 @@ insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Ema
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('40353720804576', 'Ruttger', '7569653916', '98765-432', 'rmccreatho@newsvine.com', '7259410162');
 
 -- Inserts Funcionario --
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Dore', '1%', 1);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kristina', '2%', 2 );
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kimberley', '3%', 3);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Augustin', '4%', 4);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Forrester', '5%', 5);
-insert into Funcionario (NomeFuncionario, FaixaComissao, CargoAtual) values ('Herrick', '6%', 6);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rosalinda', '7%', 7);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Karil', '8%', 8);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Nap', '9%', 9);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Zarla', '10%', 10);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bax', '11%', 11);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilona', '2,2%', 12);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Samuel', '1%', 13);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Alyson', '4%', 14);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Persis', '15%', 15);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mireielle', '16%', 16);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Darcy', '17%', 17);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Ivor', '18%', 18);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('L;urette', '19%', 19);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rockwell', '20%', 20);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mace', '21%', 21);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Craig', '22%', 22);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bea', '23%', 23);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilden', '24%', 24);
-insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Cobb', '25%', 25);
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Dore', '1%', 'Faxineira');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kristina', '2%', 'Motorisra');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kimberley', '3%', 'Gerente');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Augustin', '4%', 'Consultor de Vendas');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Forrester', '5%', 'Assistente');
+insert into Funcionario (NomeFuncionario, FaixaComissao, CargoAtual) values ('Herrick', '6%', 'Analista');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rosalinda', '7%', 'Diretor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Karil', '8%', 'Coordenador');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Nap', '9%', 'Supervisor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Zarla', '10%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bax', '11%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilona', '2,2%', 'Executivo');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Samuel', '1%', 'Analista');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Alyson', '4%', 'Assistente');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Persis', '15%', 'Assistente');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mireielle', '16%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Darcy', '17%', 'Representante');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Ivor', '18%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('L;urette', '19%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rockwell', '20%', 'Vendedor');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Mace', '21%', 'Analista');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Craig', '22%', 'Analista');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Bea', '23%', 'Analista');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Wilden', '24%', 'Coordenador');
+insert into Funcionario ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Cobb', '25%', 'Vendedor');
 
 
 -- Inserts Vendas --
