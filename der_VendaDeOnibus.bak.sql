@@ -294,6 +294,9 @@ SELECT * FROM Enderecos ORDER BY id_Cep ASC;
 -- Selects Funcionario -- 
 SELECT COUNT(*) FROM funcionario;
 SELECT * FROM Funcionario  ORDER BY id_CodigoVenda ASC;
+-- Select Veiculos_das_Vendas --
+SELECT COUNT(*) FROM Veiculos_das_Vendas; 
+SELECT * FROM Veiculos_das_Vendas ORDER BY Vendas_Funcionarios_id_CodigoVenda ASC;
 
 -- Select Join de Veiculos_das_Vendas -- 
 SELECT *
