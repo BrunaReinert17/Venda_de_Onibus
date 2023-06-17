@@ -370,10 +370,6 @@ UPDATE Funcionario SET NomeFuncionario = 'Karil', FaixaComissao = '8%', CargoAtu
 UPDATE Funcionario SET NomeFuncionario = 'Nap', FaixaComissao = '9%', CargoAtual = 'Supervisor' WHERE  id_CodigoVenda = 9;
 UPDATE Funcionario SET NomeFuncionario = 'Zarla', FaixaComissao = '10%', CargoAtual = 'Vendedor' WHERE id_CodigoVenda = 10;
 
-
-
-
-
 -- Update Vendas --
 UPDATE Vendas SET tipoPagamento = 'Cartão',Clientes_id_Cpf = 1234567891-10  WHERE  Funcionarios_id_CodigoVenda = 1;
 UPDATE Vendas SET tipoPagamento = 'Boleto' ,Clientes_id_Cpf = 234567890-21   WHERE  Funcionarios_id_CodigoVenda = 2;  
@@ -412,11 +408,6 @@ DELETE FROM Enderecos WHERE id_Cep = 56789-012 ;
 DELETE FROM Enderecos WHERE id_Cep = 21098-765 ;
 DELETE FROM Enderecos WHERE id_Cep = 34567-890 ;
 
-
-
-
-
-
 -- Deletes Funcionario -- 
 DELETE FROM Funcionarios WHERE id_CodigoVenda = 1;
 DELETE FROM Funcionarios WHERE id_CodigoVenda = 2;
@@ -424,12 +415,18 @@ DELETE FROM Funcionarios WHERE id_CodigoVenda = 3;
 DELETE FROM Funcionarios WHERE id_CodigoVenda = 4;
 DELETE FROM Funcionarios WHERE id_CodigoVenda = 5;
 
+-- Deletes Vendas -- 
+DELETE FROM Vendas WHERE Clientes_id_Cpf AND Funcionarios_id_CodigoVenda = 1;
+DELETE FROM Vendas WHERE Clientes_id_Cpf AND Funcionarios_id_CodigoVenda = 2;
+DELETE FROM Vendas WHERE Clientes_id_Cpf AND Funcionarios_id_CodigoVenda = 3;
+DELETE FROM Vendas WHERE Clientes_id_Cpf AND Funcionarios_id_CodigoVenda = 4;
+DELETE FROM Vendas WHERE Clientes_id_Cpf AND Funcionarios_id_CodigoVenda = 5;
+
+-- Deletes Veiculos_id_modelo --
+DELETE FROM Veiculos_das_Vendas WHERE Veiculos_id_modelo = 'Samurai' AND Vendas_Clientes_id_Cpf = 12345678910 AND Vendas_Funcionarios_id_CodigoVenda = 1;
+DELETE FROM Veiculos_das_Vendas WHERE Veiculos_id_modelo = 'APV' AND Vendas_Clientes_id_Cpf = 23456789021 AND Vendas_Funcionarios_id_CodigoVenda = 2;
+DELETE FROM Veiculos_das_Vendas WHERE Veiculos_id_modelo = 'TundraMax' AND Vendas_Clientes_id_Cpf = 3456780132 AND Vendas_Funcionarios_id_CodigoVenda = 3;
+DELETE FROM Veiculos_das_Vendas WHERE Veiculos_id_modelo = 'M-Class' AND Vendas_Clientes_id_Cpf = 56789012364 AND Vendas_Funcionarios_id_CodigoVenda = 4;
+DELETE FROM Veiculos_das_Vendas WHERE Veiculos_id_modelo = 'Sierra 1500' AND Vendas_Clientes_id_Cpf = 56789012364 AND Vendas_Funcionarios_id_CodigoVenda = 5;
 
 -- Comentário: sigam a ordem das tabelas (exemplo: fabricantes, veiculos etc) e a ordem dos Deletes (10 e dps 5) --
-
-
-
-
-
-
-
