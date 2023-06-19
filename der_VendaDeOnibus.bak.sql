@@ -1,5 +1,4 @@
--- DROP DATABASES vendaDeOnibus IF EXISTS--
-
+-- DROP DATABASES vendaDeOnibus IF EXISTS --
 CREATE DATABASE IF NOT EXISTS vendaDeOnibus ;
 
 USE vendaDeOnibus;
@@ -111,6 +110,7 @@ INSERT INTO Fabricantes ( NomeEmpresa, Cidade, Telefone) VALUES ( 'TransAlagoa',
 INSERT INTO Fabricantes ( NomeEmpresa, Cidade, Telefone) VALUES ('Viação Rio grande ', 'Recife',  58189940);
 
 -- Inserts Veiculos -- 
+-- Primeiros 5 inserts
 INSERT INTO Veiculos (Marca, Ano, Acessorios, Lotação, Cor, TipodeFrota, Fabricantes_idFabricante, KmVeiculo, Portaveiculo, TipoCombustivel) VALUES ('Marcopolo', 2021, 'Ar condicionado', '40 passageiros', 'Branco', 'Urbana', 1, '10.000 km', '2 portas', 'Diesel');
 INSERT INTO Veiculos (Marca, Ano, Acessorios, Lotação, Cor, TipodeFrota, Fabricantes_idFabricante, KmVeiculo, Portaveiculo, TipoCombustivel) VALUES ('Volvo Buses', 2020, 'TV, Wi-Fi', '50 passageiros', 'Prata', 'Interurbana', 2, '15.500 km', '3 portas', 'Diesel');
 INSERT INTO Veiculos (Marca, Ano, Acessorios, Lotação, Cor, TipodeFrota, Fabricantes_idFabricante, KmVeiculo, Portaveiculo, TipoCombustivel) VALUES ('Daimler Buses', 2019, 'Ar condicionado, Banheiro', '30 passageiros', 'Azul', 'Rodoviária', 3, '20.200 km', '2 portas', 'Diesel');
@@ -146,10 +146,10 @@ INSERT INTO Veiculos (Marca, Ano, Acessorios, Lotação, Cor, TipodeFrota, Fabri
 
 
 -- Inserts Enderecos --
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (11554-67, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (97469-432, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (56909-012, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
-insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (20333-765, 4, 'Klirou', 'Hamhŭng', 'Gangu Chengguanzhen', 'Kathu');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (12345-678, 1, 'Bloomington', 'Néa Péramos', 'Kelodan', 'Samphanthawong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (98765-432, 2, 'Batasan', 'Ganjaran', 'Kota Kinabalu', 'Melong');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (56789-012, 3, 'Hyltebruk', 'Almelo', 'Los Angeles', 'Caicó');
+insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (21098-765, 4, 'Klirou', 'Hamhŭng', 'Gangu Chengguanzhen', 'Kathu');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (34567-890, 5, 'Yaogou', 'Angra dos Reis', 'Prínos', 'Laxiong');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (87654-321, 6, 'Skatepark', 'Jablonec nad Jizerou', 'Mibu', 'Lenger');
 insert into Enderecos (id_Cep, Numero, Cidade, Bairro, Rua, Estado) values (54321-098, 7, 'Naschel', 'Aoshi', 'Dahu', 'Catamayo');
@@ -193,7 +193,6 @@ insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Ema
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('05326691697865', 'Clyde', 494636458, 65432-109, 'cjammeh@independent.co.uk', 452651025);
 insert into ClienteEmpresa (Cnpj, Nome, telefoneComercial, Enderecos_id_Cep, Email, TelefoneCelular) values ('15278488173456', 'Bucky', 435332717, 10987-654, 'bspraggsi@weibo.com', 230432125);
 
-
 -- Inserts Funcionario --
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Dore',5, 'Faxineira');
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Kristina', 2, 'Motorisra');
@@ -227,7 +226,7 @@ insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Forrester', 5, 'Assistente');
 insert into funcionarios (NomeFuncionario, FaixaComissao, CargoAtual) values ('Herrick', 6, 'Analista');
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Rosalinda', 7, 'Diretor');
--- para delete--
+-- delete
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Karil', 8, 'Coordenador');
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Nap', 9, 'Supervisor');
 insert into funcionarios ( NomeFuncionario, FaixaComissao, CargoAtual) values ('Zarla', 10, 'Vendedor');
@@ -253,7 +252,6 @@ INSERT INTO Vendas_Onibus (Clientes_id_Cnpj, Funcionarios_id_CodigoVenda, tipoPa
 INSERT INTO Vendas_Onibus (Clientes_id_Cnpj, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo, Veiculos_id_modelo, Vendas_Funcionarios_id_CodigoVenda) VALUES (29272750099876, 3, 'Transferência bancária', '3 anos', 'Sim', 3, 3);
 INSERT INTO Vendas_Onibus (Clientes_id_Cnpj, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo, Veiculos_id_modelo, Vendas_Funcionarios_id_CodigoVenda) VALUES (05326691697865, 4, 'Cheque', '1 ano', 'Não', 4, 4);
 INSERT INTO Vendas_Onibus (Clientes_id_Cnpj, Funcionarios_id_CodigoVenda, tipoPagamento, Garantia, ReservaVeiculo, Veiculos_id_modelo, Vendas_Funcionarios_id_CodigoVenda) VALUES (15278488173456, 5, 'Cartão de débito', '2 anos', 'Sim', 5, 5);
-
 -- SELECTS--
 
 -- Select Fabricantes --
@@ -279,6 +277,8 @@ SELECT * FROM funcionarios  ORDER BY id_CodigoVenda ASC;
 -- Select vendas -- 
 SELECT COUNT(*) FROM vendas_onibus;
 SELECT * FROM vendas_onibus ORDER BY Clientes_id_Cnpj ASC;
+
+
 
 -- Select Join de Veiculos_das_Vendas -- 
 SELECT *
@@ -379,6 +379,7 @@ UPDATE Vendas_Onibus SET ReservaVeiculo = 'Sim' WHERE idVendas = 9;
 
 -- Atualizar o tipo de pagamento da venda com idVendas = 10 para 'Cartão de débito'
 UPDATE Vendas_Onibus SET tipoPagamento = 'Cartão de débito' WHERE idVendas = 10;
+
 
 -- DELETES -- 
 
